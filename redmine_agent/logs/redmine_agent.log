@@ -1,0 +1,984 @@
+2025-05-15 18:12:33,648 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-15 18:12:33,655 - app.main - INFO - Started scheduler task
+2025-05-15 18:12:33,656 - app.scheduler - INFO - Starting scheduler
+2025-05-15 18:12:33,657 - app.scheduler - INFO - Waiting 1046.34 seconds for evening report
+2025-05-15 18:29:59,978 - app.scheduler - INFO - Sending evening reports
+2025-05-15 18:29:59,979 - app.scheduler - INFO - Waiting 53246.34 seconds until next day's schedule
+2025-05-15 18:33:31,745 - app.main - INFO - Shutdown: Scheduler task cancelled
+2025-05-15 18:33:32,906 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-15 18:33:32,920 - app.main - INFO - Started scheduler task
+2025-05-15 18:33:32,921 - app.scheduler - INFO - Starting scheduler
+2025-05-15 18:33:32,921 - app.scheduler - INFO - Waiting 51987.08 seconds until next day's schedule
+2025-05-15 18:34:01,194 - app.main - INFO - Shutdown: Scheduler task cancelled
+2025-05-15 18:34:02,233 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-15 18:34:02,241 - app.main - INFO - Started scheduler task
+2025-05-15 18:34:02,241 - app.scheduler - INFO - Starting scheduler
+2025-05-15 18:34:02,242 - app.scheduler - INFO - Waiting 51957.76 seconds until next day's schedule
+2025-05-15 18:34:12,028 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-15 18:34:12,040 - app.main - INFO - Started scheduler task
+2025-05-15 18:34:12,040 - app.scheduler - INFO - Starting scheduler
+2025-05-15 18:34:12,040 - app.scheduler - INFO - Waiting 51947.96 seconds until next day's schedule
+2025-05-15 18:35:39,248 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '561148270207042106', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250515_183538_575337.txt', 'content': '�����̃^�X�N��������'}
+2025-05-15 18:35:39,248 - app.main - ERROR - Error processing message: 
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 163, in receive_message
+    raise HTTPException(status_code=400, detail="Invalid request. 'user' and 'message' fields are required")
+fastapi.exceptions.HTTPException
+2025-05-15 18:35:41,818 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '561148270207042106', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250515_183538_575337.txt', 'content': '�����̃^�X�N��������'}
+2025-05-15 18:35:41,819 - app.main - ERROR - Error processing message: 
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 163, in receive_message
+    raise HTTPException(status_code=400, detail="Invalid request. 'user' and 'message' fields are required")
+fastapi.exceptions.HTTPException
+2025-05-15 18:35:48,521 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '561148270207042106', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250515_183538_575337.txt', 'content': '�����̃^�X�N��������'}
+2025-05-15 18:35:48,524 - app.main - ERROR - Error processing message: 
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 163, in receive_message
+    raise HTTPException(status_code=400, detail="Invalid request. 'user' and 'message' fields are required")
+fastapi.exceptions.HTTPException
+2025-05-15 18:35:57,131 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '561148270207042106', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250515_183538_575337.txt', 'content': '�����̃^�X�N��������'}
+2025-05-15 18:35:57,132 - app.main - ERROR - Error processing message: 
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 163, in receive_message
+    raise HTTPException(status_code=400, detail="Invalid request. 'user' and 'message' fields are required")
+fastapi.exceptions.HTTPException
+2025-05-15 18:36:08,945 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '561148270207042106', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250515_183538_575337.txt', 'content': '�����̃^�X�N��������'}
+2025-05-15 18:36:08,945 - app.main - ERROR - Error processing message: 
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 163, in receive_message
+    raise HTTPException(status_code=400, detail="Invalid request. 'user' and 'message' fields are required")
+fastapi.exceptions.HTTPException
+2025-05-15 18:36:25,729 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '561148270207042106', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250515_183538_575337.txt', 'content': '�����̃^�X�N��������'}
+2025-05-15 18:36:25,730 - app.main - ERROR - Error processing message: 
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 163, in receive_message
+    raise HTTPException(status_code=400, detail="Invalid request. 'user' and 'message' fields are required")
+fastapi.exceptions.HTTPException
+2025-05-15 18:38:01,200 - app.main - INFO - Shutdown: Scheduler task cancelled
+2025-05-15 18:38:02,077 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-15 18:38:02,085 - app.main - INFO - Started scheduler task
+2025-05-15 18:38:02,086 - app.scheduler - INFO - Starting scheduler
+2025-05-15 18:38:02,086 - app.scheduler - INFO - Waiting 51717.91 seconds until next day's schedule
+2025-05-15 19:46:13,033 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-15 19:46:13,050 - app.main - INFO - Started scheduler task
+2025-05-15 19:46:13,051 - app.scheduler - INFO - Starting scheduler
+2025-05-15 19:46:13,051 - app.scheduler - INFO - Waiting 47626.95 seconds until next day's schedule
+2025-05-15 19:47:03,264 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '561155456408748508', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250515_194702_529776.txt', 'content': '�����̃^�X�N��������'}
+2025-05-15 19:47:03,264 - app.main - ERROR - Error processing message: 
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 163, in receive_message
+    raise HTTPException(status_code=400, detail="Invalid request. 'user' and 'message' fields are required")
+fastapi.exceptions.HTTPException
+2025-05-15 19:47:04,787 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '561155456408748508', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250515_194702_529776.txt', 'content': '�����̃^�X�N��������'}
+2025-05-15 19:47:04,788 - app.main - ERROR - Error processing message: 
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 163, in receive_message
+    raise HTTPException(status_code=400, detail="Invalid request. 'user' and 'message' fields are required")
+fastapi.exceptions.HTTPException
+2025-05-15 19:47:11,460 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '561155456408748508', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250515_194702_529776.txt', 'content': '�����̃^�X�N��������'}
+2025-05-15 19:47:11,460 - app.main - ERROR - Error processing message: 
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 163, in receive_message
+    raise HTTPException(status_code=400, detail="Invalid request. 'user' and 'message' fields are required")
+fastapi.exceptions.HTTPException
+2025-05-15 19:47:18,167 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '561155456408748508', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250515_194702_529776.txt', 'content': '�����̃^�X�N��������'}
+2025-05-15 19:47:18,169 - app.main - ERROR - Error processing message: 
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 163, in receive_message
+    raise HTTPException(status_code=400, detail="Invalid request. 'user' and 'message' fields are required")
+fastapi.exceptions.HTTPException
+2025-05-15 19:47:29,994 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '561155456408748508', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250515_194702_529776.txt', 'content': '�����̃^�X�N��������'}
+2025-05-15 19:47:29,995 - app.main - ERROR - Error processing message: 
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 163, in receive_message
+    raise HTTPException(status_code=400, detail="Invalid request. 'user' and 'message' fields are required")
+fastapi.exceptions.HTTPException
+2025-05-15 19:47:46,748 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '561155456408748508', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250515_194702_529776.txt', 'content': '�����̃^�X�N��������'}
+2025-05-15 19:47:46,748 - app.main - ERROR - Error processing message: 
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 163, in receive_message
+    raise HTTPException(status_code=400, detail="Invalid request. 'user' and 'message' fields are required")
+fastapi.exceptions.HTTPException
+2025-05-15 19:48:40,638 - app.main - INFO - Shutdown: Scheduler task cancelled
+2025-05-15 19:48:42,311 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-15 19:48:42,325 - app.main - INFO - Started scheduler task
+2025-05-15 19:48:42,325 - app.scheduler - INFO - Starting scheduler
+2025-05-15 19:48:42,326 - app.scheduler - INFO - Waiting 47477.67 seconds until next day's schedule
+2025-05-15 19:49:01,199 - app.main - INFO - Shutdown: Scheduler task cancelled
+2025-05-15 19:49:02,246 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-15 19:49:02,254 - app.main - INFO - Started scheduler task
+2025-05-15 19:49:02,255 - app.scheduler - INFO - Starting scheduler
+2025-05-15 19:49:02,255 - app.scheduler - INFO - Waiting 47457.74 seconds until next day's schedule
+2025-05-15 19:49:32,944 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-15 19:49:32,957 - app.main - INFO - Started scheduler task
+2025-05-15 19:49:32,957 - app.scheduler - INFO - Starting scheduler
+2025-05-15 19:49:32,957 - app.scheduler - INFO - Waiting 47427.04 seconds until next day's schedule
+2025-05-15 19:50:11,122 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '561155772223062327', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250515_195010_481608.txt', 'content': '�����̃^�X�N��������'}
+2025-05-15 19:50:11,302 - app.linebot_adapter - ERROR - Error handling message: HTTPSConnectionPool(host='redmine.example.com', port=443): Max retries exceeded with url: /issues.json?start_date=2025-05-15&due_date=2025-05-15&status_id=open&sort=priority%3Adesc&limit=100 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001459A36C2F0>: Failed to resolve 'redmine.example.com' ([Errno 11001] getaddrinfo failed)"))
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\venv\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "C:\Users\motoc\python\redmine_agent\venv\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\motoc\python\redmine_agent\venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\motoc\python\redmine_agent\venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\motoc\python\redmine_agent\venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\motoc\python\redmine_agent\venv\Lib\site-packages\urllib3\connection.py", line 704, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "C:\Users\motoc\python\redmine_agent\venv\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x000001459A36C2F0>: Failed to resolve 'redmine.example.com' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\venv\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\motoc\python\redmine_agent\venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\motoc\python\redmine_agent\venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='redmine.example.com', port=443): Max retries exceeded with url: /issues.json?start_date=2025-05-15&due_date=2025-05-15&status_id=open&sort=priority%3Adesc&limit=100 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001459A36C2F0>: Failed to resolve 'redmine.example.com' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\linebot_adapter.py", line 73, in handle_message
+    return self.commands[intent](params, user_id)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\motoc\python\redmine_agent\app\linebot_adapter.py", line 83, in _handle_today_command
+    tasks = self.agent.get_daily_tasks()
+  File "C:\Users\motoc\python\redmine_agent\app\core.py", line 58, in get_daily_tasks
+    response = requests.get(
+        f"{self.redmine_url}/issues.json",
+        headers=self.headers,
+        params=params
+    )
+  File "C:\Users\motoc\python\redmine_agent\venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\motoc\python\redmine_agent\venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\motoc\python\redmine_agent\venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\motoc\python\redmine_agent\venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\motoc\python\redmine_agent\venv\Lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='redmine.example.com', port=443): Max retries exceeded with url: /issues.json?start_date=2025-05-15&due_date=2025-05-15&status_id=open&sort=priority%3Adesc&limit=100 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001459A36C2F0>: Failed to resolve 'redmine.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-05-15 19:50:11,428 - app.linebot_adapter - INFO - [SIMULATED LINE MESSAGE] To: U0082f5630775769cb2655fb503e958bb, Message: �������ɃG���[���������܂���: HTTPSConnectionPool(host='redmine....
+2025-05-15 19:50:11,539 - app.main - INFO - Shutdown: Scheduler task cancelled
+2025-05-15 19:50:12,494 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-15 19:50:12,506 - app.main - INFO - Started scheduler task
+2025-05-15 19:50:12,507 - app.scheduler - INFO - Starting scheduler
+2025-05-15 19:50:12,508 - app.scheduler - INFO - Waiting 47387.49 seconds until next day's schedule
+2025-05-15 19:50:30,243 - app.main - INFO - Shutdown: Scheduler task cancelled
+2025-05-15 19:50:31,084 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-15 19:50:31,091 - app.main - INFO - Started scheduler task
+2025-05-15 19:50:31,092 - app.scheduler - INFO - Starting scheduler
+2025-05-15 19:50:31,092 - app.scheduler - INFO - Waiting 47368.91 seconds until next day's schedule
+2025-05-15 19:54:35,537 - app.main - INFO - Shutdown: Scheduler task cancelled
+2025-05-15 19:54:36,505 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-15 19:54:36,512 - app.main - INFO - Started scheduler task
+2025-05-15 19:54:36,513 - app.scheduler - INFO - Starting scheduler
+2025-05-15 19:54:36,514 - app.scheduler - INFO - Waiting 47123.49 seconds until next day's schedule
+2025-05-15 19:54:38,349 - app.main - INFO - Shutdown: Scheduler task cancelled
+2025-05-15 19:54:41,025 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-15 19:54:41,033 - app.main - INFO - Started scheduler task
+2025-05-15 19:54:41,034 - app.scheduler - INFO - Starting scheduler
+2025-05-15 19:54:41,035 - app.scheduler - INFO - Waiting 47118.96 seconds until next day's schedule
+2025-05-15 19:55:24,044 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '561156297249259623', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250515_195523_332366.txt', 'content': '�����̃^�X�N��������'}
+2025-05-15 19:55:24,512 - app.linebot_adapter - INFO - [SIMULATED LINE MESSAGE] To: U0082f5630775769cb2655fb503e958bb, Message: �y2025�N05��15�� �{���̗\��z
+
+�\�肳��Ă���^�X�N�͂���܂���B...
+2025-05-15 19:58:11,805 - app.main - INFO - Shutdown: Scheduler task cancelled
+2025-05-15 19:59:22,229 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-15 19:59:22,236 - app.main - INFO - Started scheduler task
+2025-05-15 19:59:22,237 - app.scheduler - INFO - Starting scheduler
+2025-05-15 19:59:22,237 - app.scheduler - INFO - Waiting 46837.76 seconds until next day's schedule
+2025-05-15 19:59:28,181 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '561156681413689935', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250515_195912_634384.txt', 'content': '�����̃^�X�N ������'}
+2025-05-15 19:59:28,342 - app.linebot_adapter - INFO - [SIMULATED LINE MESSAGE] To: U0082f5630775769cb2655fb503e958bb, Message: �y2025�N05��15�� �{���̗\��z
+
+�\�肳��Ă���^�X�N�͂���܂���B...
+2025-05-15 20:01:22,799 - app.main - INFO - Shutdown: Scheduler task cancelled
+2025-05-15 20:47:34,401 - __main__ - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-15 20:47:35,401 - __mp_main__ - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-15 20:47:35,473 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-15 20:47:35,479 - app.main - INFO - Started scheduler task
+2025-05-15 20:47:35,480 - app.scheduler - INFO - Starting scheduler
+2025-05-15 20:47:35,480 - app.scheduler - INFO - Waiting 43944.52 seconds until next day's schedule
+2025-05-15 20:51:17,067 - __main__ - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-15 20:51:18,086 - __mp_main__ - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-15 20:51:18,153 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-15 20:51:18,161 - app.main - INFO - Started scheduler task
+2025-05-15 20:51:18,161 - app.scheduler - INFO - Starting scheduler
+2025-05-15 20:51:18,162 - app.scheduler - INFO - Waiting 43721.84 seconds until next day's schedule
+2025-05-15 20:52:03,093 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-15 20:52:03,101 - app.main - INFO - Started scheduler task
+2025-05-15 20:52:03,101 - app.scheduler - INFO - Starting scheduler
+2025-05-15 20:52:03,101 - app.scheduler - INFO - Waiting 43676.90 seconds until next day's schedule
+2025-05-15 20:53:34,585 - app.main - INFO - Shutdown: Scheduler task cancelled
+2025-05-15 20:53:38,909 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-15 20:53:38,917 - app.main - INFO - Started scheduler task
+2025-05-15 20:53:38,917 - app.scheduler - INFO - Starting scheduler
+2025-05-15 20:53:38,918 - app.scheduler - INFO - Waiting 43581.08 seconds until next day's schedule
+2025-05-15 20:54:39,018 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-15 20:54:39,027 - app.main - INFO - Started scheduler task
+2025-05-15 20:54:39,027 - app.scheduler - INFO - Starting scheduler
+2025-05-15 20:54:39,027 - app.scheduler - INFO - Waiting 43520.97 seconds until next day's schedule
+2025-05-15 20:55:16,048 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '561162323255885954', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250515_205515_357775.txt', 'content': '�����̃^�X�N ������'}
+2025-05-15 20:55:16,705 - app.linebot_adapter - INFO - [SIMULATED LINE MESSAGE] To: U0082f5630775769cb2655fb503e958bb, Message: �y2025�N05��15�� �{���̗\��z
+
+1. �f�X�N�g�b�v�ڑ��E�t�@�C�A�E�H�[���ݒ� - TODO...
+2025-05-15 20:58:38,800 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '561162664336949407', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250515_205838_162803.txt', 'content': '/help'}
+2025-05-15 20:58:38,801 - app.linebot_adapter - INFO - [SIMULATED LINE MESSAGE] To: U0082f5630775769cb2655fb503e958bb, Message: �y�g�p�\�ȃR�}���h�z
+
+/today - �{���̃^�X�N�ꗗ
+/tasks [����] - ����̃^�X...
+2025-05-15 21:05:25,651 - app.main - ERROR - Error processing message: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 157, in receive_message
+    data = await request.json()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\motoc\python\redmine_agent\venv\Lib\site-packages\starlette\requests.py", line 244, in json
+    self._json = json.loads(body)
+                 ~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Python313\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2025-05-15 21:05:53,581 - app.main - ERROR - Error processing message: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 157, in receive_message
+    data = await request.json()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\motoc\python\redmine_agent\venv\Lib\site-packages\starlette\requests.py", line 244, in json
+    self._json = json.loads(body)
+                 ~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Python313\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2025-05-15 21:23:11,879 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-15 21:23:11,886 - app.main - INFO - Started scheduler task
+2025-05-15 21:23:11,887 - app.scheduler - INFO - Starting scheduler
+2025-05-15 21:23:11,888 - app.scheduler - INFO - Waiting 41808.11 seconds until next day's schedule
+2025-05-15 21:23:27,459 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '561165161591996642', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250515_212326_872333.txt', 'content': '/help'}
+2025-05-15 21:23:27,466 - app.linebot_adapter - INFO - [SIMULATED LINE MESSAGE] To: U0082f5630775769cb2655fb503e958bb, Message: �y�g�p�\�ȃR�}���h�z
+
+/today - �{���̃^�X�N�ꗗ
+/tasks [����] - ����̃^�X�N�ꗗ
+/log <�`�P�b�gID> <����> <�R�����g> - ��Ǝ��Ԃ��L�^
+/status <�`�P�b�gID> <�X�e�[�^�XID> [�R�����g] - �X�e�[�^�X���X�V
+/update <�`�P�b�gID> <�i����> [�R�����g] - �i�������X�V
+/summary <�`�P�b�gID> - �`�P�b�g�̗v���\��
+/report today - �����̍�ƃ��|�[�g
+/report week - �T�ԃT�}���[���|�[�g
+/optimize - �^�X�N�������̒��
+/help - ���̃w���v��\��
+
+���R����ł̎w�����\�ł��B��:
+�u�����̃^�X�N�����āv
+�u�^�X�N135��2���ԋL�^���āA���e�͑ł����킹�v
+�u�T�ԃ��|�[�g�������āv
+2025-05-15 21:39:12,171 - app.main - INFO - Shutdown: Scheduler task cancelled
+2025-05-15 21:39:12,975 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-15 21:39:12,982 - app.main - INFO - Started scheduler task
+2025-05-15 21:39:12,982 - app.scheduler - INFO - Starting scheduler
+2025-05-15 21:39:12,982 - app.scheduler - INFO - Waiting 40847.02 seconds until next day's schedule
+2025-05-15 21:42:23,920 - app.main - INFO - Shutdown: Scheduler task cancelled
+2025-05-16 00:08:57,511 - app.llm_helper - INFO - ���ϐ� GEMINI_API_KEY ����API�L�[�����[�h���܂���
+2025-05-16 00:08:57,511 - app.llm_helper - INFO - ���ϐ� GOOGLE_API_KEY ����API�L�[�����[�h���܂���
+2025-05-16 00:08:57,512 - app.llm_helper - INFO - Gemini API�ڑ��e�X�g���s��...
+2025-05-16 00:08:58,935 - app.llm_helper - INFO - Gemini API�ڑ��e�X�g����
+2025-05-16 00:08:58,937 - app.linebot_adapter - INFO - LLM�A�V�X�^���g�����������܂���
+2025-05-16 00:08:58,937 - __main__ - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-16 00:09:00,070 - app.llm_helper - INFO - ���ϐ� GEMINI_API_KEY ����API�L�[�����[�h���܂���
+2025-05-16 00:09:00,071 - app.llm_helper - INFO - ���ϐ� GOOGLE_API_KEY ����API�L�[�����[�h���܂���
+2025-05-16 00:09:00,071 - app.llm_helper - INFO - Gemini API�ڑ��e�X�g���s��...
+2025-05-16 00:09:01,216 - app.llm_helper - INFO - Gemini API�ڑ��e�X�g����
+2025-05-16 00:09:01,218 - app.linebot_adapter - INFO - LLM�A�V�X�^���g�����������܂���
+2025-05-16 00:09:01,218 - __mp_main__ - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-16 00:09:01,282 - app.llm_helper - INFO - ���ϐ� GEMINI_API_KEY ����API�L�[�����[�h���܂���
+2025-05-16 00:09:01,283 - app.llm_helper - INFO - ���ϐ� GOOGLE_API_KEY ����API�L�[�����[�h���܂���
+2025-05-16 00:09:01,283 - app.llm_helper - INFO - Gemini API�ڑ��e�X�g���s��...
+2025-05-16 00:09:03,276 - app.llm_helper - INFO - Gemini API�ڑ��e�X�g����
+2025-05-16 00:09:03,277 - app.linebot_adapter - INFO - LLM�A�V�X�^���g�����������܂���
+2025-05-16 00:09:03,278 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-16 00:09:03,284 - app.main - INFO - Started scheduler task
+2025-05-16 00:09:03,285 - app.scheduler - INFO - Starting scheduler
+2025-05-16 00:09:03,285 - app.scheduler - INFO - �����|�[�g�܂� 31856.71 �b�ҋ@���܂�
+2025-05-16 00:10:00,238 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '561181926342787584', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250516_000959_584675.txt', 'content': '/help'}
+2025-05-16 00:10:30,346 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '561181976992940254', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250516_001029_744548.txt', 'content': '/today'}
+2025-05-16 00:10:31,694 - app.linebot_adapter - INFO - [SIMULATED LINE MESSAGE] To: U0082f5630775769cb2655fb503e958bb, Message: �y2025�N05��16�� �{���̗\��z
+
+1. �f�X�N�g�b�v�ڑ��E�t�@�C�A�E�H�[���ݒ� - TODO (100%)�i�������߁j
+2. �H��\�Z�̐ݒ� - TODO (0%)�i�������߁j
+3. �ی���БΉ� - TODO (0%)�i�������߁j
+4. RAG�V�X�e���\�z - TODO (0%)�i�������߁j
+5. �C����z - TODO (0%)�i�������߁j
+6. ������}�b�T�[�W��w�� (TEMU) - TODO (30%)�i�������߁j
+7. �痢 - TODO (30%)�i�������߁j
+8. �e�X�g�ƃf�o�b�O - TODO (0%)�i�������߁j
+9. �x�������� - TODO (0%)�i�������߁j
+10. �Ԃ̎��̏��� - TODO (0%)�i�������߁j
+11. �T�[�o�[�����グ - TODO (100%)�i�������߁j
+12. EASYRAG2 - TODO (33%)�i�������߁j
+13. �v���W�F�N�g�\������ - TODO (0%)�i�������߁j
+14. �T�[�o�[PC�����グ - TODO (100%)�i�������߁j
+15. Redmine���\�z - TODO (75%)�i�������߁j
+16. �C���t������ - TODO (62%)�i�������߁j
+17. �x�o�L�^ - TODO (100%)�i�������߁j
+18. �H��Ǘ� - TODO (66%)�i�������߁j
+19. �d�� - TODO (0%)�i�������߁j
+20. API�A�g - TODO (0%)�i�������߁j
+21. �v����` - TODO (0%)�i�������߁j
+22. �`�l�d�a�`�����N�C�� - TODO (0%)�i�������߁j
+23. UI�݌v - TODO (0%)�i�������߁j
+24. �f�U�C�� - TODO (0%)�i�������߁j
+25. �e�X�g - TODO (0%)�i�������߁j
+26. LINEWEB - TODO (0%)�i�������߁j
+27. ���� - TODO (0%)�i�������߁j
+28. COCOHE - TODO (0%)�i�������߁j
+29. SRT/EDL �T�}���C�Y�A�v�� - TODO (0%)�i�������߁j
+30. �A�v���e���v���[�g�J�� - TODO (50%)�i�������߁j
+31. �A�v���J�� - TODO (20%)�i�������߁j
+32. �A�v���J���t�F�[�Y1 - TODO (9%)�i�������߁j
+33. �f�[�^���f���݌v - TODO (0%)�i�������߁j
+34. JSON�^�A�m�e�[�V�����f�[�^�x�[�X�쐬 - TODO (100%)�i�������߁j
+35. �f�[�^�l�b�g���[�N���_�\�z - TODO (50%)�i�������߁j
+36. ����G�[�W�F���g�v���g�^�C�v - TODO (0%)�i�������߁j
+37. �`�h�G�[�W�F���g - TODO (37%)�i�������߁j
+38. AI�G�[�W�F���g�J�� - TODO (37%)�i�������߁j
+39. �n���C�^�C���L���쐬 - TODO (0%)�i�������߁j
+40. ��� - TODO (0%)�i�������߁j
+41. AI�J���֘A�L�� - TODO (0%)�i�������߁j
+42. �A�v���J���L�� - TODO (0%)�i�������߁j
+43. �u���O�l�^ - TODO (0%)�i�������߁j
+44. �B�e - TODO (0%)�i�������߁j
+45. �ҏW�E���e - TODO (0%)�i�������߁j
+46. YOUTUBE���� - TODO (0%)�i�������߁j
+47. �R���e���c���� - TODO (0%)�i�������߁j
+48. �l�G�[�W�F���g�J�� - TODO (0%)
+
+2025-05-16 00:11:11,640 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '561182046333174432', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250516_001111_032814.txt', 'content': '������ �u���O �l�^��������'}
+2025-05-16 00:11:11,641 - app.linebot_adapter - INFO - LLM�ɂ�郁�b�Z�[�W��͂����s���܂�
+2025-05-16 00:11:11,641 - app.llm_helper - INFO - Gemini API���N�G�X�g���s (���s 1/3)
+2025-05-16 00:11:13,841 - app.llm_helper - WARNING - �R�}���h��͂̐M���x���Ⴗ���܂�: 0.3
+2025-05-16 00:11:13,841 - app.llm_helper - INFO - �R�}���h���: type=unknown, confidence=0.3
+2025-05-16 00:11:13,841 - app.linebot_adapter - INFO - LLM�ɂ���͌���: unknown (�M���x: 0.30) - �]���̉�͂Ƀt�H�[���o�b�N
+2025-05-16 00:14:05,601 - app.main - INFO - Shutdown: Scheduler task cancelled
+2025-05-16 00:19:14,629 - app.llm_helper - INFO - 環境変数 GEMINI_API_KEY からAPIキーをロードしました
+2025-05-16 00:19:14,629 - app.llm_helper - INFO - 環境変数 GOOGLE_API_KEY からAPIキーをロードしました
+2025-05-16 00:19:14,629 - app.llm_helper - INFO - Gemini API接続テスト実行中...
+2025-05-16 00:19:16,571 - app.llm_helper - INFO - Gemini API接続テスト成功
+2025-05-16 00:19:16,574 - app.linebot_adapter - INFO - LLMアシスタントを初期化しました
+2025-05-16 00:19:16,580 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-16 00:19:16,590 - app.main - INFO - Started scheduler task
+2025-05-16 00:19:16,590 - app.scheduler - INFO - Starting scheduler
+2025-05-16 00:19:16,591 - app.scheduler - INFO - 朝レポートまで 31243.41 秒待機します
+2025-05-16 00:19:30,633 - app.llm_helper - INFO - 環境変数 GEMINI_API_KEY からAPIキーをロードしました
+2025-05-16 00:19:30,634 - app.llm_helper - INFO - 環境変数 GOOGLE_API_KEY からAPIキーをロードしました
+2025-05-16 00:19:30,643 - app.llm_helper - INFO - Gemini API接続テスト実行中...
+2025-05-16 00:19:32,967 - app.llm_helper - INFO - Gemini API接続テスト成功
+2025-05-16 00:19:32,969 - app.linebot_adapter - INFO - LLMアシスタントを初期化しました
+2025-05-16 00:19:32,969 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-16 00:19:32,989 - app.main - INFO - Started scheduler task
+2025-05-16 00:19:32,990 - app.scheduler - INFO - Starting scheduler
+2025-05-16 00:19:32,993 - app.scheduler - INFO - 朝レポートまで 31227.01 秒待機します
+2025-05-16 00:20:13,357 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '561182954869489908', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250516_002012_672357.txt', 'content': '今日は ブログ ネタを書いた'}
+2025-05-16 00:20:13,358 - app.linebot_adapter - INFO - LLMによるメッセージ解析を実行します
+2025-05-16 00:20:13,359 - app.llm_helper - INFO - Gemini APIリクエスト実行 (試行 1/3)
+2025-05-16 00:20:15,629 - app.llm_helper - WARNING - コマンド解析の信頼度が低すぎます: 0.3
+2025-05-16 00:20:15,630 - app.llm_helper - INFO - コマンド解析: type=unknown, confidence=0.3
+2025-05-16 00:20:15,630 - app.linebot_adapter - INFO - LLMによる解析結果: unknown (信頼度: 0.30) - 従来の解析にフォールバック
+2025-05-16 00:20:15,640 - app.linebot_adapter - INFO - [SIMULATED LINE MESSAGE] To: U0082f5630775769cb2655fb503e958bb, Message length: 450
+2025-05-16 00:20:57,160 - app.main - INFO - Shutdown: Scheduler task cancelled
+2025-05-16 00:20:58,521 - app.llm_helper - INFO - 環境変数 GEMINI_API_KEY からAPIキーをロードしました
+2025-05-16 00:20:58,522 - app.llm_helper - INFO - 環境変数 GOOGLE_API_KEY からAPIキーをロードしました
+2025-05-16 00:20:58,522 - app.llm_helper - INFO - Gemini API接続テスト実行中...
+2025-05-16 00:21:00,483 - app.llm_helper - INFO - Gemini API接続テスト成功
+2025-05-16 00:21:00,486 - app.linebot_adapter - INFO - LLMアシスタントを初期化しました
+2025-05-16 00:21:00,486 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-16 00:21:00,498 - app.main - INFO - Started scheduler task
+2025-05-16 00:21:00,498 - app.scheduler - INFO - Starting scheduler
+2025-05-16 00:21:00,499 - app.scheduler - INFO - 朝レポートまで 31139.50 秒待機します
+2025-05-16 02:16:12,491 - app.llm_helper - INFO - 環境変数 GEMINI_API_KEY からAPIキーをロードしました
+2025-05-16 02:16:12,491 - app.llm_helper - INFO - 環境変数 GOOGLE_API_KEY からAPIキーをロードしました
+2025-05-16 02:16:12,491 - app.llm_helper - INFO - Gemini API接続テスト実行中...
+2025-05-16 02:16:14,393 - app.llm_helper - INFO - Gemini API接続テスト成功
+2025-05-16 02:16:14,394 - app.linebot_adapter - INFO - LLMアシスタントを初期化しました
+2025-05-16 02:16:14,395 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-16 02:16:14,404 - app.main - INFO - Started scheduler task
+2025-05-16 02:16:14,405 - app.scheduler - INFO - Starting scheduler
+2025-05-16 02:16:14,405 - app.scheduler - INFO - 朝レポートまで 24225.59 秒待機します
+2025-05-16 02:16:48,328 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '561194690029027639', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250516_021647_671193.txt', 'content': '今日は ブログ ネタを書いた'}
+2025-05-16 02:16:48,328 - app.linebot_adapter - INFO - LLMによるメッセージ解析を実行します
+2025-05-16 02:16:48,328 - app.llm_helper - INFO - Gemini APIリクエスト実行 (試行 1/3)
+2025-05-16 02:16:50,519 - app.llm_helper - WARNING - コマンド解析の信頼度が低すぎます: 0.3
+2025-05-16 02:16:50,519 - app.llm_helper - INFO - コマンド解析: type=unknown, confidence=0.3
+2025-05-16 02:16:50,519 - app.linebot_adapter - INFO - LLMによる解析結果: unknown (信頼度: 0.30) - 従来の解析にフォールバック
+2025-05-16 02:16:50,534 - app.linebot_adapter - INFO - [SIMULATED LINE MESSAGE] To: U0082f5630775769cb2655fb503e958bb, Message length: 450
+2025-05-16 05:29:40,430 - app.main - INFO - Shutdown: Scheduler task cancelled
+2025-05-16 05:30:15,356 - app.llm_helper - INFO - 環境変数 GEMINI_API_KEY からAPIキーをロードしました
+2025-05-16 05:30:15,356 - app.llm_helper - INFO - 環境変数 GOOGLE_API_KEY からAPIキーをロードしました
+2025-05-16 05:30:15,357 - app.llm_helper - INFO - Gemini API接続テスト実行中...
+2025-05-16 05:30:17,490 - app.llm_helper - INFO - Gemini API接続テスト成功
+2025-05-16 05:30:17,492 - app.linebot_adapter - INFO - LLMアシスタントを初期化しました
+2025-05-16 05:30:17,493 - app.main - ERROR - Failed to initialize LINE Bot adapter: 'LineBotAdapter' object has no attribute '_handle_mode_command'
+2025-05-16 06:22:59,394 - app.llm_helper - INFO - 環境変数 GEMINI_API_KEY からAPIキーをロードしました
+2025-05-16 06:22:59,395 - app.llm_helper - INFO - 環境変数 GOOGLE_API_KEY からAPIキーをロードしました
+2025-05-16 06:22:59,395 - app.llm_helper - INFO - Gemini API接続テスト実行中...
+2025-05-16 06:23:01,575 - app.llm_helper - INFO - Gemini API接続テスト成功
+2025-05-16 06:23:01,576 - app.linebot_adapter - INFO - LLMアシスタントを初期化しました
+2025-05-16 06:23:01,577 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-16 06:23:01,584 - app.main - INFO - Started scheduler task
+2025-05-16 06:23:01,584 - app.scheduler - INFO - Starting scheduler
+2025-05-16 06:23:01,584 - app.scheduler - INFO - 朝レポートまで 9418.42 秒待機します
+2025-05-16 06:25:09,772 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '561219690094133339', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250516_062509_094929.txt', 'content': '本番にしたい'}
+2025-05-16 06:25:09,794 - app.config - INFO - 設定を保存しました: C:\Users\motoc\python\redmine_agent\data\config.json
+2025-05-16 06:25:09,795 - app.config - INFO - 設定を保存しました: C:\Users\motoc\python\redmine_agent\data\config.json
+2025-05-16 06:25:09,803 - app.linebot_adapter - INFO - [PRODUCTION] Sending LINE message to U0082f5630775769cb2655fb503e958bb, length: 83
+2025-05-16 06:25:09,822 - app.linebot_adapter - INFO - [SIMULATED LINE MESSAGE] To: U0082f5630775769cb2655fb503e958bb, Message length: 83
+2025-05-16 08:59:59,958 - app.scheduler - INFO - Sending morning reports
+2025-05-16 09:00:00,631 - app.linebot_adapter - INFO - [PRODUCTION] Sending LINE message to U0082f5630775769cb2655fb503e958bb, length: 45
+2025-05-16 09:00:00,632 - app.linebot_adapter - INFO - [SIMULATED LINE MESSAGE] To: U0082f5630775769cb2655fb503e958bb, Message length: 45
+2025-05-16 09:00:00,633 - app.scheduler - INFO - Morning report sent to LINE user U0082f5630775769cb2655fb503e958bb
+2025-05-16 09:00:00,633 - app.scheduler - INFO - 夕方レポートまで 41818.42 秒待機します
+2025-05-16 09:52:33,744 - app.main - ERROR - Error processing message: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 172, in receive_message
+    data = await request.json()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\motoc\python\redmine_agent\venv\Lib\site-packages\starlette\requests.py", line 244, in json
+    self._json = json.loads(body)
+                 ~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Python313\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2025-05-16 10:26:56,767 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '561244029338517915', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250516_102656_107482.txt', 'content': '今日はとってもいい天気'}
+2025-05-16 10:26:56,767 - app.linebot_adapter - INFO - LLMによるメッセージ解析を実行します
+2025-05-16 10:26:56,768 - app.llm_helper - INFO - Gemini APIリクエスト実行 (試行 1/3)
+2025-05-16 10:26:59,430 - app.llm_helper - WARNING - コマンド解析の信頼度が低すぎます: 0.1
+2025-05-16 10:26:59,431 - app.llm_helper - INFO - コマンド解析: type=unknown, confidence=0.1
+2025-05-16 10:26:59,431 - app.linebot_adapter - INFO - LLMによる解析結果: unknown (信頼度: 0.10) - 従来の解析にフォールバック
+2025-05-16 10:26:59,434 - app.linebot_adapter - INFO - [PRODUCTION] Sending LINE message to U0082f5630775769cb2655fb503e958bb, length: 487
+2025-05-16 10:26:59,435 - app.linebot_adapter - INFO - [SIMULATED LINE MESSAGE] To: U0082f5630775769cb2655fb503e958bb, Message length: 487
+2025-05-16 10:28:41,430 - app.main - INFO - Received message data: {'message_id': 'test_message_1', 'user_id': 'test_user_123', 'message_type': 'text', 'content': 'これはRedmine連携のテスト用メッセージです。'}
+2025-05-16 10:28:41,431 - app.linebot_adapter - INFO - LLMによるメッセージ解析を実行します
+2025-05-16 10:28:41,431 - app.llm_helper - INFO - Gemini APIリクエスト実行 (試行 1/3)
+2025-05-16 10:28:43,407 - app.llm_helper - WARNING - コマンド解析の信頼度が低すぎます: 0.2
+2025-05-16 10:28:43,409 - app.llm_helper - INFO - コマンド解析: type=unknown, confidence=0.2
+2025-05-16 10:28:43,412 - app.linebot_adapter - INFO - LLMによる解析結果: unknown (信頼度: 0.20) - 従来の解析にフォールバック
+2025-05-16 10:28:43,416 - app.linebot_adapter - INFO - [PRODUCTION] Sending LINE message to test_user_123, length: 487
+2025-05-16 10:28:43,419 - app.linebot_adapter - INFO - [SIMULATED LINE MESSAGE] To: test_user_123, Message length: 487
+2025-05-16 10:28:51,273 - app.main - INFO - Received message data: {'message_id': 'test_command_1', 'user_id': 'test_user_123', 'message_type': 'text', 'content': '@help'}
+2025-05-16 10:28:51,273 - app.linebot_adapter - INFO - LLMによるメッセージ解析を実行します
+2025-05-16 10:28:51,273 - app.llm_helper - INFO - Gemini APIリクエスト実行 (試行 1/3)
+2025-05-16 10:28:53,459 - app.llm_helper - INFO - コマンド解析: type=help, confidence=1.0
+2025-05-16 10:28:53,460 - app.linebot_adapter - INFO - LLMがコマンド 'help' を検出しました (信頼度: 1.00)
+2025-05-16 10:28:53,461 - app.linebot_adapter - INFO - [PRODUCTION] Sending LINE message to test_user_123, length: 487
+2025-05-16 10:28:53,461 - app.linebot_adapter - INFO - [SIMULATED LINE MESSAGE] To: test_user_123, Message length: 487
+2025-05-16 10:31:08,291 - app.main - INFO - Received message data: {'message_id': 'manual_test_1', 'user_id': 'test_user_456', 'message_type': 'text', 'content': 'これはRedmine連携の手動テスト用メッセージです。この内容がRedmineに転送されるはずです。'}
+2025-05-16 10:31:08,291 - app.linebot_adapter - INFO - LLMによるメッセージ解析を実行します
+2025-05-16 10:31:08,292 - app.llm_helper - INFO - Gemini APIリクエスト実行 (試行 1/3)
+2025-05-16 10:31:10,444 - app.llm_helper - INFO - コマンド解析: type=unknown, confidence=0.6
+2025-05-16 10:31:10,444 - app.linebot_adapter - INFO - LLMによる解析結果: unknown (信頼度: 0.60) - 従来の解析にフォールバック
+2025-05-16 10:31:10,445 - app.linebot_adapter - INFO - [PRODUCTION] Sending LINE message to test_user_456, length: 487
+2025-05-16 10:31:10,446 - app.linebot_adapter - INFO - [SIMULATED LINE MESSAGE] To: test_user_456, Message length: 487
+2025-05-16 10:34:06,682 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '561244749869089207', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250516_103405_705075.txt', 'content': '@help'}
+2025-05-16 10:34:06,682 - app.linebot_adapter - INFO - LLMによるメッセージ解析を実行します
+2025-05-16 10:34:06,683 - app.llm_helper - INFO - Gemini APIリクエスト実行 (試行 1/3)
+2025-05-16 10:34:08,478 - app.llm_helper - INFO - コマンド解析: type=help, confidence=1.0
+2025-05-16 10:34:08,478 - app.linebot_adapter - INFO - LLMがコマンド 'help' を検出しました (信頼度: 1.00)
+2025-05-16 10:34:08,480 - app.linebot_adapter - INFO - [PRODUCTION] Sending LINE message to U0082f5630775769cb2655fb503e958bb, length: 487
+2025-05-16 10:34:08,480 - app.linebot_adapter - INFO - [SIMULATED LINE MESSAGE] To: U0082f5630775769cb2655fb503e958bb, Message length: 487
+2025-05-16 10:35:03,222 - app.main - INFO - Shutdown: Scheduler task cancelled
+2025-05-16 10:35:07,953 - app.llm_helper - INFO - 環境変数 GEMINI_API_KEY からAPIキーをロードしました
+2025-05-16 10:35:07,954 - app.llm_helper - INFO - 環境変数 GOOGLE_API_KEY からAPIキーをロードしました
+2025-05-16 10:35:07,954 - app.llm_helper - INFO - Gemini API接続テスト実行中...
+2025-05-16 10:35:09,465 - app.llm_helper - INFO - Gemini API接続テスト成功
+2025-05-16 10:35:09,466 - app.linebot_adapter - INFO - LLMアシスタントを初期化しました
+2025-05-16 10:35:09,466 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-16 10:35:09,474 - app.main - INFO - Started scheduler task
+2025-05-16 10:35:09,474 - app.scheduler - INFO - Starting scheduler
+2025-05-16 10:35:09,475 - app.scheduler - INFO - 夕方レポートまで 26690.52 秒待機します
+2025-05-16 10:35:15,080 - app.main - INFO - Shutdown: Scheduler task cancelled
+2025-05-16 10:36:26,831 - app.llm_helper - INFO - 環境変数 GEMINI_API_KEY からAPIキーをロードしました
+2025-05-16 10:36:26,831 - app.llm_helper - INFO - 環境変数 GOOGLE_API_KEY からAPIキーをロードしました
+2025-05-16 10:36:26,832 - app.llm_helper - INFO - Gemini API接続テスト実行中...
+2025-05-16 10:36:28,666 - app.llm_helper - INFO - Gemini API接続テスト成功
+2025-05-16 10:36:28,668 - app.linebot_adapter - INFO - LLMアシスタントを初期化しました
+2025-05-16 10:36:28,668 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-16 10:36:28,676 - app.main - INFO - Started scheduler task
+2025-05-16 10:36:28,677 - app.scheduler - INFO - Starting scheduler
+2025-05-16 10:36:28,677 - app.scheduler - INFO - 夕方レポートまで 26611.32 秒待機します
+2025-05-16 10:36:35,096 - app.main - INFO - Shutdown: Scheduler task cancelled
+2025-05-16 10:38:42,856 - app.llm_helper - INFO - 環境変数 GEMINI_API_KEY からAPIキーをロードしました
+2025-05-16 10:38:42,856 - app.llm_helper - INFO - 環境変数 GOOGLE_API_KEY からAPIキーをロードしました
+2025-05-16 10:38:42,856 - app.llm_helper - INFO - Gemini API接続テスト実行中...
+2025-05-16 10:38:44,640 - app.llm_helper - INFO - Gemini API接続テスト成功
+2025-05-16 10:38:44,641 - app.linebot_adapter - INFO - LLMアシスタントを初期化しました
+2025-05-16 10:38:44,641 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-16 10:38:44,653 - app.main - INFO - Started scheduler task
+2025-05-16 10:38:44,653 - app.scheduler - INFO - Starting scheduler
+2025-05-16 10:38:44,654 - app.scheduler - INFO - 夕方レポートまで 26475.35 秒待機します
+2025-05-16 10:39:26,724 - app.main - INFO - Shutdown: Scheduler task cancelled
+2025-05-16 10:39:27,819 - app.llm_helper - INFO - 環境変数 GEMINI_API_KEY からAPIキーをロードしました
+2025-05-16 10:39:27,820 - app.llm_helper - INFO - 環境変数 GOOGLE_API_KEY からAPIキーをロードしました
+2025-05-16 10:39:27,820 - app.llm_helper - INFO - Gemini API接続テスト実行中...
+2025-05-16 10:39:29,993 - app.llm_helper - INFO - Gemini API接続テスト成功
+2025-05-16 10:39:29,995 - app.linebot_adapter - INFO - LLMアシスタントを初期化しました
+2025-05-16 10:39:29,996 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-16 10:39:30,009 - app.main - INFO - Started scheduler task
+2025-05-16 10:39:30,010 - app.scheduler - INFO - Starting scheduler
+2025-05-16 10:39:30,010 - app.scheduler - INFO - 夕方レポートまで 26429.99 秒待機します
+2025-05-16 10:39:31,179 - app.llm_helper - INFO - 環境変数 GEMINI_API_KEY からAPIキーをロードしました
+2025-05-16 10:39:31,180 - app.llm_helper - INFO - 環境変数 GOOGLE_API_KEY からAPIキーをロードしました
+2025-05-16 10:39:31,180 - app.llm_helper - INFO - Gemini API接続テスト実行中...
+2025-05-16 10:39:33,536 - app.llm_helper - INFO - Gemini API接続テスト成功
+2025-05-16 10:39:33,539 - app.linebot_adapter - INFO - LLMアシスタントを初期化しました
+2025-05-16 10:39:33,539 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-16 10:39:33,550 - app.main - INFO - Started scheduler task
+2025-05-16 10:39:33,551 - app.scheduler - INFO - Starting scheduler
+2025-05-16 10:39:33,551 - app.scheduler - INFO - 夕方レポートまで 26426.45 秒待機します
+2025-05-16 10:40:25,673 - app.main - INFO - Shutdown: Scheduler task cancelled
+2025-05-16 10:40:26,632 - app.llm_helper - INFO - 環境変数 GEMINI_API_KEY からAPIキーをロードしました
+2025-05-16 10:40:26,633 - app.llm_helper - INFO - 環境変数 GOOGLE_API_KEY からAPIキーをロードしました
+2025-05-16 10:40:26,633 - app.llm_helper - INFO - Gemini API接続テスト実行中...
+2025-05-16 10:40:27,914 - app.llm_helper - INFO - Gemini API接続テスト成功
+2025-05-16 10:40:27,915 - app.linebot_adapter - INFO - LLMアシスタントを初期化しました
+2025-05-16 10:40:27,916 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-16 10:40:27,936 - app.main - INFO - Started scheduler task
+2025-05-16 10:40:27,936 - app.scheduler - INFO - Starting scheduler
+2025-05-16 10:40:27,942 - app.scheduler - INFO - 夕方レポートまで 26372.06 秒待機します
+2025-05-16 10:40:31,034 - app.llm_helper - INFO - 環境変数 GEMINI_API_KEY からAPIキーをロードしました
+2025-05-16 10:40:31,034 - app.llm_helper - INFO - 環境変数 GOOGLE_API_KEY からAPIキーをロードしました
+2025-05-16 10:40:31,035 - app.llm_helper - INFO - Gemini API接続テスト実行中...
+2025-05-16 10:40:32,314 - app.llm_helper - INFO - Gemini API接続テスト成功
+2025-05-16 10:40:32,316 - app.linebot_adapter - INFO - LLMアシスタントを初期化しました
+2025-05-16 10:40:32,316 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-16 10:40:32,324 - app.main - INFO - Started scheduler task
+2025-05-16 10:40:32,325 - app.scheduler - INFO - Starting scheduler
+2025-05-16 10:40:32,325 - app.scheduler - INFO - 夕方レポートまで 26367.67 秒待機します
+2025-05-16 10:47:15,295 - app.main - INFO - Shutdown: Scheduler task cancelled
+2025-05-16 10:47:16,226 - app.llm_helper - INFO - 環境変数 GEMINI_API_KEY からAPIキーをロードしました
+2025-05-16 10:47:16,226 - app.llm_helper - INFO - 環境変数 GOOGLE_API_KEY からAPIキーをロードしました
+2025-05-16 10:47:16,226 - app.llm_helper - INFO - Gemini API接続テスト実行中...
+2025-05-16 10:47:18,358 - app.llm_helper - INFO - Gemini API接続テスト成功
+2025-05-16 10:47:18,372 - app.linebot_adapter - INFO - LLMアシスタントを初期化しました
+2025-05-16 10:47:18,382 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-16 10:47:18,429 - app.main - INFO - Started scheduler task
+2025-05-16 10:47:18,448 - app.scheduler - INFO - Starting scheduler
+2025-05-16 10:47:18,449 - app.scheduler - INFO - 夕方レポートまで 25961.55 秒待機します
+2025-05-16 11:09:22,583 - app.llm_helper - INFO - 環境変数 GEMINI_API_KEY からAPIキーをロードしました
+2025-05-16 11:09:22,583 - app.llm_helper - INFO - 環境変数 GOOGLE_API_KEY からAPIキーをロードしました
+2025-05-16 11:09:22,583 - app.llm_helper - INFO - Gemini API接続テスト実行中...
+2025-05-16 11:09:23,671 - app.llm_helper - INFO - Gemini API接続テスト成功
+2025-05-16 11:09:23,673 - app.linebot_adapter - INFO - LLMアシスタントを初期化しました
+2025-05-16 11:09:23,673 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-16 11:09:23,680 - app.main - INFO - Started scheduler task
+2025-05-16 11:09:23,681 - app.scheduler - INFO - Starting scheduler
+2025-05-16 11:09:23,681 - app.scheduler - INFO - 夕方レポートまで 24636.32 秒待機します
+2025-05-16 11:14:03,509 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_text': 'もう掃除機は前からあるホース長いナショナルのを使ってる！絨毯はこれの方がよく吸うし！これが壊れたら買わなあかん😅', 'timestamp': 1747361641, 'source_type': 'user'}
+2025-05-16 11:14:03,509 - app.main - ERROR - Error processing message: 
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 177, in receive_message
+    raise HTTPException(status_code=400, detail="Invalid request. 'user_id' and 'content' fields are required")
+fastapi.exceptions.HTTPException
+2025-05-16 11:14:03,512 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_text': 'もう掃除機は前からあるホース長いナショナルのを使ってる！絨毯はこれの方がよく吸うし！これが壊れたら買わなあかん😅', 'timestamp': 1747361641, 'source_type': 'user'}
+2025-05-16 11:14:03,513 - app.main - ERROR - Error processing message: 
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 177, in receive_message
+    raise HTTPException(status_code=400, detail="Invalid request. 'user_id' and 'content' fields are required")
+fastapi.exceptions.HTTPException
+2025-05-16 11:14:05,515 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_text': 'もう掃除機は前からあるホース長いナショナルのを使ってる！絨毯はこれの方がよく吸うし！これが壊れたら買わなあかん😅', 'timestamp': 1747361641, 'source_type': 'user'}
+2025-05-16 11:14:05,516 - app.main - ERROR - Error processing message: 
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 177, in receive_message
+    raise HTTPException(status_code=400, detail="Invalid request. 'user_id' and 'content' fields are required")
+fastapi.exceptions.HTTPException
+2025-05-16 11:14:09,519 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_text': 'もう掃除機は前からあるホース長いナショナルのを使ってる！絨毯はこれの方がよく吸うし！これが壊れたら買わなあかん😅', 'timestamp': 1747361641, 'source_type': 'user'}
+2025-05-16 11:14:09,519 - app.main - ERROR - Error processing message: 
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 177, in receive_message
+    raise HTTPException(status_code=400, detail="Invalid request. 'user_id' and 'content' fields are required")
+fastapi.exceptions.HTTPException
+2025-05-16 11:19:31,456 - app.main - INFO - Shutdown: Scheduler task cancelled
+2025-05-16 11:19:58,297 - app.llm_helper - INFO - 環境変数 GEMINI_API_KEY からAPIキーをロードしました
+2025-05-16 11:19:58,304 - app.llm_helper - INFO - 環境変数 GOOGLE_API_KEY からAPIキーをロードしました
+2025-05-16 11:19:58,304 - app.llm_helper - INFO - Gemini API接続テスト実行中...
+2025-05-16 11:20:00,659 - app.llm_helper - INFO - Gemini API接続テスト成功
+2025-05-16 11:20:00,661 - app.linebot_adapter - INFO - LLMアシスタントを初期化しました
+2025-05-16 11:20:00,661 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-16 11:20:00,667 - app.main - INFO - Started scheduler task
+2025-05-16 11:20:00,668 - app.scheduler - INFO - Starting scheduler
+2025-05-16 11:20:00,668 - app.scheduler - INFO - 夕方レポートまで 23999.33 秒待機します
+2025-05-16 11:20:51,963 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_text': 'もう掃除機は前からあるホース長いナショナルのを使ってる！絨毯はこれの方がよく吸うし！これが壊れたら買わなあかん😅', 'timestamp': 1747362049, 'source_type': 'user'}
+2025-05-16 11:20:51,963 - app.main - ERROR - Error processing message: 
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 177, in receive_message
+    raise HTTPException(status_code=400, detail="Invalid request. 'user_id' and 'content' fields are required")
+fastapi.exceptions.HTTPException
+2025-05-16 11:20:51,966 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_text': 'もう掃除機は前からあるホース長いナショナルのを使ってる！絨毯はこれの方がよく吸うし！これが壊れたら買わなあかん😅', 'timestamp': 1747362049, 'source_type': 'user'}
+2025-05-16 11:20:51,967 - app.main - ERROR - Error processing message: 
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 177, in receive_message
+    raise HTTPException(status_code=400, detail="Invalid request. 'user_id' and 'content' fields are required")
+fastapi.exceptions.HTTPException
+2025-05-16 11:20:53,970 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_text': 'もう掃除機は前からあるホース長いナショナルのを使ってる！絨毯はこれの方がよく吸うし！これが壊れたら買わなあかん😅', 'timestamp': 1747362049, 'source_type': 'user'}
+2025-05-16 11:20:53,970 - app.main - ERROR - Error processing message: 
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 177, in receive_message
+    raise HTTPException(status_code=400, detail="Invalid request. 'user_id' and 'content' fields are required")
+fastapi.exceptions.HTTPException
+2025-05-16 11:20:57,973 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_text': 'もう掃除機は前からあるホース長いナショナルのを使ってる！絨毯はこれの方がよく吸うし！これが壊れたら買わなあかん😅', 'timestamp': 1747362049, 'source_type': 'user'}
+2025-05-16 11:20:57,974 - app.main - ERROR - Error processing message: 
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 177, in receive_message
+    raise HTTPException(status_code=400, detail="Invalid request. 'user_id' and 'content' fields are required")
+fastapi.exceptions.HTTPException
+2025-05-16 11:36:07,201 - app.main - INFO - Shutdown: Scheduler task cancelled
+2025-05-16 11:36:10,010 - app.llm_helper - INFO - 環境変数 GEMINI_API_KEY からAPIキーをロードしました
+2025-05-16 11:36:10,010 - app.llm_helper - INFO - 環境変数 GOOGLE_API_KEY からAPIキーをロードしました
+2025-05-16 11:36:10,011 - app.llm_helper - INFO - Gemini API接続テスト実行中...
+2025-05-16 11:36:11,203 - app.llm_helper - INFO - Gemini API接続テスト成功
+2025-05-16 11:36:11,204 - app.linebot_adapter - INFO - LLMアシスタントを初期化しました
+2025-05-16 11:36:11,205 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-16 11:36:11,212 - app.main - INFO - Started scheduler task
+2025-05-16 11:36:11,213 - app.scheduler - INFO - Starting scheduler
+2025-05-16 11:36:11,213 - app.scheduler - INFO - 夕方レポートまで 23028.79 秒待機します
+2025-05-16 11:47:18,512 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_text': 'もう掃除機は前からあるホース長いナショナルのを使ってる！絨毯はこれの方がよく吸うし！これが壊れたら買わなあかん😅', 'timestamp': 1747363636, 'source_type': 'user'}
+2025-05-16 11:47:18,512 - app.linebot_adapter - INFO - LLMによるメッセージ解析を実行します
+2025-05-16 11:47:18,512 - app.llm_helper - INFO - Gemini APIリクエスト実行 (試行 1/3)
+2025-05-16 11:47:21,213 - app.llm_helper - INFO - コマンド解析: type=comment, confidence=0.6
+2025-05-16 11:47:21,213 - app.linebot_adapter - INFO - LLMによる解析結果: comment (信頼度: 0.60) - 従来の解析にフォールバック
+2025-05-16 11:47:21,213 - app.main - ERROR - Error processing message: name 'background_tasks' is not defined
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 211, in receive_message
+    background_tasks.add_task(
+    ^^^^^^^^^^^^^^^^
+NameError: name 'background_tasks' is not defined. Did you mean: 'BackgroundTasks'?
+2025-05-16 11:47:21,217 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_text': 'もう掃除機は前からあるホース長いナショナルのを使ってる！絨毯はこれの方がよく吸うし！これが壊れたら買わなあかん😅', 'timestamp': 1747363636, 'source_type': 'user'}
+2025-05-16 11:47:21,217 - app.linebot_adapter - INFO - LLMによるメッセージ解析を実行します
+2025-05-16 11:47:21,217 - app.llm_helper - INFO - Gemini APIリクエスト実行 (試行 1/3)
+2025-05-16 11:47:23,582 - app.llm_helper - INFO - コマンド解析: type=comment, confidence=0.6
+2025-05-16 11:47:23,582 - app.linebot_adapter - INFO - LLMによる解析結果: comment (信頼度: 0.60) - 従来の解析にフォールバック
+2025-05-16 11:47:23,582 - app.main - ERROR - Error processing message: name 'background_tasks' is not defined
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 211, in receive_message
+    background_tasks.add_task(
+    ^^^^^^^^^^^^^^^^
+NameError: name 'background_tasks' is not defined. Did you mean: 'BackgroundTasks'?
+2025-05-16 11:47:25,585 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_text': 'もう掃除機は前からあるホース長いナショナルのを使ってる！絨毯はこれの方がよく吸うし！これが壊れたら買わなあかん😅', 'timestamp': 1747363636, 'source_type': 'user'}
+2025-05-16 11:47:25,585 - app.linebot_adapter - INFO - LLMによるメッセージ解析を実行します
+2025-05-16 11:47:25,585 - app.llm_helper - INFO - Gemini APIリクエスト実行 (試行 1/3)
+2025-05-16 11:47:27,627 - app.llm_helper - WARNING - コマンド解析の信頼度が低すぎます: 0.2
+2025-05-16 11:47:27,628 - app.llm_helper - INFO - コマンド解析: type=unknown, confidence=0.2
+2025-05-16 11:47:27,628 - app.linebot_adapter - INFO - LLMによる解析結果: unknown (信頼度: 0.20) - 従来の解析にフォールバック
+2025-05-16 11:47:27,628 - app.main - ERROR - Error processing message: name 'background_tasks' is not defined
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 211, in receive_message
+    background_tasks.add_task(
+    ^^^^^^^^^^^^^^^^
+NameError: name 'background_tasks' is not defined. Did you mean: 'BackgroundTasks'?
+2025-05-16 11:47:31,632 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_text': 'もう掃除機は前からあるホース長いナショナルのを使ってる！絨毯はこれの方がよく吸うし！これが壊れたら買わなあかん😅', 'timestamp': 1747363636, 'source_type': 'user'}
+2025-05-16 11:47:31,632 - app.linebot_adapter - INFO - LLMによるメッセージ解析を実行します
+2025-05-16 11:47:31,632 - app.llm_helper - INFO - Gemini APIリクエスト実行 (試行 1/3)
+2025-05-16 11:47:34,219 - app.llm_helper - INFO - コマンド解析: type=comment, confidence=0.6
+2025-05-16 11:47:34,220 - app.linebot_adapter - INFO - LLMによる解析結果: comment (信頼度: 0.60) - 従来の解析にフォールバック
+2025-05-16 11:47:34,220 - app.main - ERROR - Error processing message: name 'background_tasks' is not defined
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 211, in receive_message
+    background_tasks.add_task(
+    ^^^^^^^^^^^^^^^^
+NameError: name 'background_tasks' is not defined. Did you mean: 'BackgroundTasks'?
+2025-05-16 11:53:45,211 - app.main - INFO - Shutdown: Scheduler task cancelled
+2025-05-16 11:53:47,661 - app.llm_helper - INFO - 環境変数 GEMINI_API_KEY からAPIキーをロードしました
+2025-05-16 11:53:47,662 - app.llm_helper - INFO - 環境変数 GOOGLE_API_KEY からAPIキーをロードしました
+2025-05-16 11:53:47,663 - app.llm_helper - INFO - Gemini API接続テスト実行中...
+2025-05-16 11:53:48,910 - app.llm_helper - INFO - Gemini API接続テスト成功
+2025-05-16 11:53:48,912 - app.linebot_adapter - INFO - LLMアシスタントを初期化しました
+2025-05-16 11:53:48,912 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-16 11:53:48,921 - app.main - INFO - Started scheduler task
+2025-05-16 11:53:48,922 - app.scheduler - INFO - Starting scheduler
+2025-05-16 11:53:48,922 - app.scheduler - INFO - 夕方レポートまで 21971.08 秒待機します
+2025-05-16 11:54:02,416 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_text': 'もう掃除機は前からあるホース長いナショナルのを使ってる！絨毯はこれの方がよく吸うし！これが壊れたら買わなあかん😅', 'timestamp': 1747364040, 'source_type': 'user'}
+2025-05-16 11:54:02,416 - app.main - ERROR - Error processing message: 'coroutine' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 176, in receive_message
+    "user_id": request.json().get("user_id"),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'coroutine' object has no attribute 'get'
+2025-05-16 11:54:02,419 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_text': 'もう掃除機は前からあるホース長いナショナルのを使ってる！絨毯はこれの方がよく吸うし！これが壊れたら買わなあかん😅', 'timestamp': 1747364040, 'source_type': 'user'}
+2025-05-16 11:54:02,420 - app.main - ERROR - Error processing message: 'coroutine' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 176, in receive_message
+    "user_id": request.json().get("user_id"),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'coroutine' object has no attribute 'get'
+2025-05-16 11:54:04,423 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_text': 'もう掃除機は前からあるホース長いナショナルのを使ってる！絨毯はこれの方がよく吸うし！これが壊れたら買わなあかん😅', 'timestamp': 1747364040, 'source_type': 'user'}
+2025-05-16 11:54:04,423 - app.main - ERROR - Error processing message: 'coroutine' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 176, in receive_message
+    "user_id": request.json().get("user_id"),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'coroutine' object has no attribute 'get'
+2025-05-16 11:54:08,426 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_text': 'もう掃除機は前からあるホース長いナショナルのを使ってる！絨毯はこれの方がよく吸うし！これが壊れたら買わなあかん😅', 'timestamp': 1747364040, 'source_type': 'user'}
+2025-05-16 11:54:08,427 - app.main - ERROR - Error processing message: 'coroutine' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\main.py", line 176, in receive_message
+    "user_id": request.json().get("user_id"),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'coroutine' object has no attribute 'get'
+2025-05-16 11:54:15,693 - app.main - INFO - Shutdown: Scheduler task cancelled
+2025-05-16 12:01:09,981 - app.llm_helper - INFO - 環境変数 GEMINI_API_KEY からAPIキーをロードしました
+2025-05-16 12:01:09,981 - app.llm_helper - INFO - 環境変数 GOOGLE_API_KEY からAPIキーをロードしました
+2025-05-16 12:01:09,982 - app.llm_helper - INFO - Gemini API接続テスト実行中...
+2025-05-16 12:01:11,411 - app.llm_helper - INFO - Gemini API接続テスト成功
+2025-05-16 12:01:11,413 - app.linebot_adapter - INFO - LLMアシスタントを初期化しました
+2025-05-16 12:01:11,413 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-16 12:01:11,421 - app.main - INFO - Started scheduler task
+2025-05-16 12:01:11,422 - app.scheduler - INFO - Starting scheduler
+2025-05-16 12:01:11,422 - app.scheduler - INFO - 夕方レポートまで 21528.58 秒待機します
+2025-05-16 12:01:39,537 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_text': 'もう掃除機は前からあるホース長いナショナルのを使ってる！絨毯はこれの方がよく吸うし！これが壊れたら買わなあかん😅', 'timestamp': 1747364497, 'source_type': 'user'}
+2025-05-16 12:01:39,538 - app.linebot_adapter - INFO - LLMによるメッセージ解析を実行します
+2025-05-16 12:01:39,538 - app.llm_helper - INFO - Gemini APIリクエスト実行 (試行 1/3)
+2025-05-16 12:01:42,204 - app.llm_helper - INFO - コマンド解析: type=comment, confidence=0.6
+2025-05-16 12:01:42,204 - app.linebot_adapter - INFO - LLMによる解析結果: comment (信頼度: 0.60) - 従来の解析にフォールバック
+2025-05-16 12:01:42,213 - app.linebot_adapter - INFO - [PRODUCTION] Sending LINE message to U0082f5630775769cb2655fb503e958bb, length: 480
+2025-05-16 12:01:42,218 - app.linebot_adapter - INFO - [SIMULATED LINE MESSAGE] To: U0082f5630775769cb2655fb503e958bb, Message length: 480
+2025-05-16 13:36:25,563 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_text': 'もう掃除機は前からあるホース長いナショナルのを使ってる！絨毯はこれの方がよく吸うし！これが壊れたら買わなあかん😅', 'timestamp': 1747370183, 'source_type': 'user'}
+2025-05-16 13:36:25,564 - app.linebot_adapter - INFO - LLMによるメッセージ解析を実行します
+2025-05-16 13:36:25,564 - app.llm_helper - INFO - Gemini APIリクエスト実行 (試行 1/3)
+2025-05-16 13:36:28,202 - app.llm_helper - INFO - コマンド解析: type=comment, confidence=0.6
+2025-05-16 13:36:28,202 - app.linebot_adapter - INFO - LLMによる解析結果: comment (信頼度: 0.60) - 従来の解析にフォールバック
+2025-05-16 13:36:28,204 - app.linebot_adapter - INFO - [PRODUCTION] Sending LINE message to U0082f5630775769cb2655fb503e958bb, length: 480
+2025-05-16 13:36:28,204 - app.linebot_adapter - INFO - [SIMULATED LINE MESSAGE] To: U0082f5630775769cb2655fb503e958bb, Message length: 480
+2025-05-16 13:37:45,808 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_text': '[IMAGE MESSAGE]', 'timestamp': 1747370263, 'source_type': 'user'}
+2025-05-16 13:37:45,808 - app.linebot_adapter - INFO - LLMによるメッセージ解析を実行します
+2025-05-16 13:37:45,808 - app.llm_helper - INFO - Gemini APIリクエスト実行 (試行 1/3)
+2025-05-16 13:37:47,453 - app.llm_helper - WARNING - コマンド解析の信頼度が低すぎます: 0.1
+2025-05-16 13:37:47,453 - app.llm_helper - INFO - コマンド解析: type=unknown, confidence=0.1
+2025-05-16 13:37:47,454 - app.linebot_adapter - INFO - LLMによる解析結果: unknown (信頼度: 0.10) - 従来の解析にフォールバック
+2025-05-16 13:37:47,455 - app.linebot_adapter - INFO - [PRODUCTION] Sending LINE message to U0082f5630775769cb2655fb503e958bb, length: 480
+2025-05-16 13:37:47,455 - app.linebot_adapter - INFO - [SIMULATED LINE MESSAGE] To: U0082f5630775769cb2655fb503e958bb, Message length: 480
+2025-05-16 13:38:13,324 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_text': 'もう掃除機は前からあるホース長いナショナルのを使ってる！絨毯はこれの方がよく吸うし！これが壊れたら買わなあかん😅', 'timestamp': 1747370291, 'source_type': 'user'}
+2025-05-16 13:38:13,324 - app.linebot_adapter - INFO - LLMによるメッセージ解析を実行します
+2025-05-16 13:38:13,325 - app.llm_helper - INFO - Gemini APIリクエスト実行 (試行 1/3)
+2025-05-16 13:38:16,072 - app.llm_helper - WARNING - コマンド解析の信頼度が低すぎます: 0.2
+2025-05-16 13:38:16,072 - app.llm_helper - INFO - コマンド解析: type=unknown, confidence=0.2
+2025-05-16 13:38:16,072 - app.linebot_adapter - INFO - LLMによる解析結果: unknown (信頼度: 0.20) - 従来の解析にフォールバック
+2025-05-16 13:38:16,074 - app.linebot_adapter - INFO - [PRODUCTION] Sending LINE message to U0082f5630775769cb2655fb503e958bb, length: 480
+2025-05-16 13:38:16,075 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_text': 'メッセージの処理が完了しました。', 'timestamp': 1747370292, 'source_type': 'user'}
+2025-05-16 13:38:16,075 - app.linebot_adapter - INFO - [SIMULATED LINE MESSAGE] To: U0082f5630775769cb2655fb503e958bb, Message length: 480
+2025-05-16 13:38:16,075 - app.linebot_adapter - INFO - LLMによるメッセージ解析を実行します
+2025-05-16 13:38:16,076 - app.llm_helper - INFO - Gemini APIリクエスト実行 (試行 1/3)
+2025-05-16 13:38:18,930 - app.llm_helper - INFO - コマンド解析: type=update_status, confidence=0.7
+2025-05-16 13:38:18,930 - app.linebot_adapter - INFO - LLMがコマンド 'update_status' を検出しました (信頼度: 0.70)
+2025-05-16 13:38:18,931 - app.linebot_adapter - INFO - LLMによる解析結果: update_status (信頼度: 0.70) - 従来の解析にフォールバック
+2025-05-16 13:38:18,932 - app.linebot_adapter - INFO - [PRODUCTION] Sending LINE message to U0082f5630775769cb2655fb503e958bb, length: 480
+2025-05-16 13:38:18,932 - app.linebot_adapter - INFO - [SIMULATED LINE MESSAGE] To: U0082f5630775769cb2655fb503e958bb, Message length: 480
+2025-05-16 14:12:29,434 - app.main - INFO - Shutdown: Scheduler task cancelled
+2025-05-16 14:12:32,793 - app.llm_helper - INFO - 環境変数 GEMINI_API_KEY からAPIキーをロードしました
+2025-05-16 14:12:32,794 - app.llm_helper - INFO - 環境変数 GOOGLE_API_KEY からAPIキーをロードしました
+2025-05-16 14:12:32,794 - app.llm_helper - INFO - Gemini API接続テスト実行中...
+2025-05-16 14:12:34,567 - app.llm_helper - INFO - Gemini API接続テスト成功
+2025-05-16 14:12:34,568 - app.linebot_adapter - INFO - LLMアシスタントを初期化しました
+2025-05-16 14:12:34,568 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-16 14:12:34,575 - app.main - INFO - Started scheduler task
+2025-05-16 14:12:34,576 - app.scheduler - INFO - Starting scheduler
+2025-05-16 14:12:34,576 - app.scheduler - INFO - 夕方レポートまで 13645.42 秒待機します
+2025-05-16 14:25:02,915 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_text': '[IMAGE MESSAGE]', 'timestamp': 1747373100, 'source_type': 'user'}
+2025-05-16 14:25:02,915 - app.linebot_adapter - INFO - LLMによるメッセージ解析を実行します
+2025-05-16 14:25:02,915 - app.llm_helper - INFO - Gemini APIリクエスト実行 (試行 1/3)
+2025-05-16 14:25:04,567 - app.llm_helper - WARNING - コマンド解析の信頼度が低すぎます: 0.1
+2025-05-16 14:25:04,567 - app.llm_helper - INFO - コマンド解析: type=unknown, confidence=0.1
+2025-05-16 14:25:04,567 - app.linebot_adapter - INFO - LLM解析結果がコメントまたは低信頼度 (unknown, 0.10)。チケット作成を試みます。
+2025-05-16 14:25:04,568 - app.linebot_adapter - INFO - コマンド形式ではない、またはLLMが特定コマンドと解釈しなかったため、新しいチケットとして登録処理を開始します: [IMAGE MESSAGE]...
+2025-05-16 14:25:04,568 - app.linebot_adapter - ERROR - 環境変数 DEFAULT_PROJECT_ID が設定されていません。
+2025-05-16 14:25:04,577 - app.linebot_adapter - INFO - [PRODUCTION] Sending LINE message to U0082f5630775769cb2655fb503e958bb, length: 42
+2025-05-16 14:25:04,579 - app.linebot_adapter - INFO - [SIMULATED LINE MESSAGE] To: U0082f5630775769cb2655fb503e958bb, Message length: 42
+2025-05-16 14:43:41,099 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_text': '今日のうんこはめっちゃでかかった', 'timestamp': 1747374219, 'source_type': 'user'}
+2025-05-16 14:43:41,100 - app.linebot_adapter - INFO - LLMによるメッセージ解析を実行します
+2025-05-16 14:43:41,100 - app.llm_helper - INFO - Gemini APIリクエスト実行 (試行 1/3)
+2025-05-16 14:43:42,966 - app.llm_helper - WARNING - コマンド解析の信頼度が低すぎます: 0.1
+2025-05-16 14:43:42,966 - app.llm_helper - INFO - コマンド解析: type=unknown, confidence=0.1
+2025-05-16 14:43:42,966 - app.linebot_adapter - INFO - LLM解析結果がコメントまたは低信頼度 (unknown, 0.10)。チケット作成を試みます。
+2025-05-16 14:43:42,967 - app.linebot_adapter - INFO - コマンド形式ではない、またはLLMが特定コマンドと解釈しなかったため、新しいチケットとして登録処理を開始します: 今日のうんこはめっちゃでかかった...
+2025-05-16 14:43:42,967 - app.linebot_adapter - ERROR - 環境変数 DEFAULT_PROJECT_ID が設定されていません。
+2025-05-16 14:43:42,968 - app.linebot_adapter - INFO - [PRODUCTION] Sending LINE message to U0082f5630775769cb2655fb503e958bb, length: 42
+2025-05-16 14:43:42,969 - app.linebot_adapter - INFO - [SIMULATED LINE MESSAGE] To: U0082f5630775769cb2655fb503e958bb, Message length: 42
+2025-05-16 14:57:41,997 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_text': '今日のうんこはめっちゃでかかった', 'timestamp': 1747375059, 'source_type': 'user'}
+2025-05-16 14:57:41,997 - app.linebot_adapter - INFO - LLMによるメッセージ解析を実行します
+2025-05-16 14:57:41,998 - app.llm_helper - INFO - Gemini APIリクエスト実行 (試行 1/3)
+2025-05-16 14:57:44,024 - app.llm_helper - WARNING - コマンド解析の信頼度が低すぎます: 0.1
+2025-05-16 14:57:44,024 - app.llm_helper - INFO - コマンド解析: type=unknown, confidence=0.1
+2025-05-16 14:57:44,025 - app.linebot_adapter - INFO - LLM解析結果がコメントまたは低信頼度 (unknown, 0.10)。チケット作成を試みます。
+2025-05-16 14:57:44,025 - app.linebot_adapter - INFO - コマンド形式ではない、またはLLMが特定コマンドと解釈しなかったため、新しいチケットとして登録処理を開始します: 今日のうんこはめっちゃでかかった...
+2025-05-16 14:57:44,025 - app.linebot_adapter - ERROR - 環境変数 DEFAULT_PROJECT_ID が設定されていません。
+2025-05-16 14:57:44,027 - app.linebot_adapter - INFO - [PRODUCTION] Sending LINE message to U0082f5630775769cb2655fb503e958bb, length: 42
+2025-05-16 14:57:44,027 - app.linebot_adapter - INFO - [SIMULATED LINE MESSAGE] To: U0082f5630775769cb2655fb503e958bb, Message length: 42
+2025-05-16 14:57:57,324 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_text': '[自動生成] 202505160555の意図分析', 'timestamp': 1747375075, 'source_type': 'user', 'intent_data': {'intent_type': '感情表現', 'confidence_score': 0.9, 'keywords': ['ごく親しい友人、家族、または投稿者自身（個人的な記録）', '熱意的']}}
+2025-05-16 14:57:57,325 - app.linebot_adapter - INFO - LLMによるメッセージ解析を実行します
+2025-05-16 14:57:57,325 - app.llm_helper - INFO - Gemini APIリクエスト実行 (試行 1/3)
+2025-05-16 14:58:00,163 - app.llm_helper - INFO - コマンド解析: type=summary, confidence=0.7
+2025-05-16 14:58:00,166 - app.linebot_adapter - INFO - LLMがコマンド 'summary' を検出しました (信頼度: 0.70)
+2025-05-16 14:58:00,166 - app.linebot_adapter - INFO - コマンド形式ではない、またはLLMが特定コマンドと解釈しなかったため、新しいチケットとして登録処理を開始します: [自動生成] 202505160555の意図分析...
+2025-05-16 14:58:00,167 - app.linebot_adapter - ERROR - 環境変数 DEFAULT_PROJECT_ID が設定されていません。
+2025-05-16 14:58:00,168 - app.linebot_adapter - INFO - [PRODUCTION] Sending LINE message to U0082f5630775769cb2655fb503e958bb, length: 42
+2025-05-16 14:58:00,168 - app.linebot_adapter - INFO - [SIMULATED LINE MESSAGE] To: U0082f5630775769cb2655fb503e958bb, Message length: 42
+2025-05-16 15:37:55,096 - app.llm_helper - INFO - 環境変数 GEMINI_API_KEY からAPIキーをロードしました
+2025-05-16 15:37:55,096 - app.llm_helper - INFO - 環境変数 GOOGLE_API_KEY からAPIキーをロードしました
+2025-05-16 15:37:55,096 - app.llm_helper - INFO - Gemini API接続テスト実行中...
+2025-05-16 15:37:56,996 - app.llm_helper - INFO - Gemini API接続テスト成功
+2025-05-16 15:37:56,998 - app.linebot_adapter - INFO - LLMアシスタントを初期化しました
+2025-05-16 15:37:56,998 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-16 15:37:57,005 - app.main - INFO - Started scheduler task
+2025-05-16 15:37:57,005 - app.scheduler - INFO - Starting scheduler
+2025-05-16 15:37:57,006 - app.scheduler - INFO - 夕方レポートまで 8522.99 秒待機します
+2025-05-16 15:38:54,794 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_text': '[自動生成] 202505160635の意図分析', 'timestamp': 1747377532, 'source_type': 'user', 'intent_data': {'intent_type': '情報共有', 'confidence_score': 0.95, 'keywords': ['画像の内容に興味がある一般の読者、またはAIによる画像分析技術に関心がある人々', '中立']}}
+2025-05-16 15:38:54,795 - app.linebot_adapter - INFO - LLMによるメッセージ解析を実行します
+2025-05-16 15:38:54,795 - app.llm_helper - INFO - Gemini APIリクエスト実行 (試行 1/3)
+2025-05-16 15:38:57,443 - app.llm_helper - INFO - コマンド解析: type=summary, confidence=0.7
+2025-05-16 15:38:57,443 - app.linebot_adapter - INFO - LLMがコマンド 'summary' を検出しました (信頼度: 0.70)
+2025-05-16 15:38:57,443 - app.linebot_adapter - INFO - コマンド形式ではない、またはLLMが特定コマンドと解釈しなかったため、新しいチケットとして登録処理を開始します: [自動生成] 202505160635の意図分析...
+2025-05-16 15:38:57,444 - app.linebot_adapter - ERROR - Error handling message: 'RedmineAgent' object has no attribute 'create_issue'
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\linebot_adapter.py", line 174, in handle_message
+    created_issue = self.agent.create_issue(
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RedmineAgent' object has no attribute 'create_issue'
+2025-05-16 15:38:57,454 - app.linebot_adapter - INFO - [PRODUCTION] Sending LINE message to U0082f5630775769cb2655fb503e958bb, length: 78
+2025-05-16 15:38:57,456 - app.linebot_adapter - INFO - [SIMULATED LINE MESSAGE] To: U0082f5630775769cb2655fb503e958bb, Message length: 78
+2025-05-16 15:41:19,370 - app.main - INFO - Shutdown: Scheduler task cancelled
+2025-05-16 15:41:23,809 - app.llm_helper - INFO - 環境変数 GEMINI_API_KEY からAPIキーをロードしました
+2025-05-16 15:41:23,809 - app.llm_helper - INFO - 環境変数 GOOGLE_API_KEY からAPIキーをロードしました
+2025-05-16 15:41:23,810 - app.llm_helper - INFO - Gemini API接続テスト実行中...
+2025-05-16 15:41:26,127 - app.llm_helper - INFO - Gemini API接続テスト成功
+2025-05-16 15:41:26,129 - app.linebot_adapter - INFO - LLMアシスタントを初期化しました
+2025-05-16 15:41:26,129 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-16 15:41:26,137 - app.main - INFO - Started scheduler task
+2025-05-16 15:41:26,137 - app.scheduler - INFO - Starting scheduler
+2025-05-16 15:41:26,137 - app.scheduler - INFO - 夕方レポートまで 8313.86 秒待機します
+2025-05-16 15:42:09,356 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_text': '[自動生成] 202505160640の意図分析', 'timestamp': 1747377727, 'source_type': 'user', 'intent_data': {'intent_type': '情報共有', 'confidence_score': 1.0, 'keywords': ['画像を直接見ることができない人、画像の内容をテキストで記録・参照したい人、画像分析に興味がある人、または画像アーカイブシステムの関係者など。', '中立']}}
+2025-05-16 15:42:09,356 - app.linebot_adapter - INFO - LLMによるメッセージ解析を実行します
+2025-05-16 15:42:09,356 - app.llm_helper - INFO - Gemini APIリクエスト実行 (試行 1/3)
+2025-05-16 15:42:10,594 - app.llm_helper - INFO - コマンド解析: type=summary, confidence=0.8
+2025-05-16 15:42:10,594 - app.linebot_adapter - INFO - LLMがコマンド 'summary' を検出しました (信頼度: 0.80)
+2025-05-16 15:42:10,595 - app.linebot_adapter - INFO - コマンド形式ではない、またはLLMが特定コマンドと解釈しなかったため、新しいチケットとして登録処理を開始します: [自動生成] 202505160640の意図分析...
+2025-05-16 15:42:10,595 - app.linebot_adapter - ERROR - Error handling message: 'RedmineAgent' object has no attribute 'create_issue'
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\linebot_adapter.py", line 174, in handle_message
+    created_issue = self.agent.create_issue(
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RedmineAgent' object has no attribute 'create_issue'
+2025-05-16 15:42:10,606 - app.linebot_adapter - INFO - [PRODUCTION] Sending LINE message to U0082f5630775769cb2655fb503e958bb, length: 78
+2025-05-16 15:42:10,608 - app.linebot_adapter - INFO - [SIMULATED LINE MESSAGE] To: U0082f5630775769cb2655fb503e958bb, Message length: 78
+2025-05-16 15:42:52,075 - app.llm_helper - INFO - 環境変数 GEMINI_API_KEY からAPIキーをロードしました
+2025-05-16 15:42:52,076 - app.llm_helper - INFO - 環境変数 GOOGLE_API_KEY からAPIキーをロードしました
+2025-05-16 15:42:52,076 - app.llm_helper - INFO - Gemini API接続テスト実行中...
+2025-05-16 15:42:53,070 - app.llm_helper - INFO - Gemini API接続テスト成功
+2025-05-16 15:42:53,072 - app.linebot_adapter - INFO - LLMアシスタントを初期化しました
+2025-05-16 15:42:53,073 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-16 15:42:53,080 - app.main - INFO - Started scheduler task
+2025-05-16 15:42:53,080 - app.scheduler - INFO - Starting scheduler
+2025-05-16 15:42:53,080 - app.scheduler - INFO - 夕方レポートまで 8226.92 秒待機します
+2025-05-16 15:43:24,871 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_text': '[自動生成] 202505160640の意図分析', 'timestamp': 1747377802, 'source_type': 'user', 'intent_data': {'intent_type': '情報共有', 'confidence_score': 1.0, 'keywords': ['画像を直接見ることができない人、画像の内容をテキストで記録・参照したい人、画像分析に興味がある人、または画像アーカイブシステムの関係者など。', '中立']}}
+2025-05-16 15:43:24,871 - app.linebot_adapter - INFO - LLMによるメッセージ解析を実行します
+2025-05-16 15:43:24,872 - app.llm_helper - INFO - Gemini APIリクエスト実行 (試行 1/3)
+2025-05-16 15:43:26,252 - app.llm_helper - INFO - コマンド解析: type=summary, confidence=0.8
+2025-05-16 15:43:26,252 - app.linebot_adapter - INFO - LLMがコマンド 'summary' を検出しました (信頼度: 0.80)
+2025-05-16 15:43:26,253 - app.linebot_adapter - INFO - コマンド形式ではない、またはLLMが特定コマンドと解釈しなかったため、新しいチケットとして登録処理を開始します: [自動生成] 202505160640の意図分析...
+2025-05-16 15:43:26,253 - app.linebot_adapter - ERROR - Error handling message: 'RedmineAgent' object has no attribute 'create_issue'
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\linebot_adapter.py", line 174, in handle_message
+    created_issue = self.agent.create_issue(
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RedmineAgent' object has no attribute 'create_issue'
+2025-05-16 15:43:26,263 - app.linebot_adapter - INFO - [PRODUCTION] Sending LINE message to U0082f5630775769cb2655fb503e958bb, length: 78
+2025-05-16 15:43:26,265 - app.linebot_adapter - INFO - [SIMULATED LINE MESSAGE] To: U0082f5630775769cb2655fb503e958bb, Message length: 78
+2025-05-16 15:45:48,758 - app.main - INFO - Shutdown: Scheduler task cancelled
+2025-05-16 15:47:50,555 - app.llm_helper - INFO - 環境変数 GEMINI_API_KEY からAPIキーをロードしました
+2025-05-16 15:47:50,555 - app.llm_helper - INFO - 環境変数 GOOGLE_API_KEY からAPIキーをロードしました
+2025-05-16 15:47:50,555 - app.llm_helper - INFO - Gemini API接続テスト実行中...
+2025-05-16 15:47:51,700 - app.llm_helper - INFO - Gemini API接続テスト成功
+2025-05-16 15:47:51,701 - app.linebot_adapter - INFO - LLMアシスタントを初期化しました
+2025-05-16 15:47:51,701 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-16 15:47:51,712 - app.main - INFO - Started scheduler task
+2025-05-16 15:47:51,713 - app.scheduler - INFO - Starting scheduler
+2025-05-16 15:47:51,713 - app.scheduler - INFO - 夕方レポートまで 7928.29 秒待機します
+2025-05-16 15:48:55,590 - app.main - INFO - Received message data: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_text': '[自動生成] 202505160645の意図分析', 'timestamp': 1747378133, 'source_type': 'user', 'intent_data': {'intent_type': '情報共有', 'confidence_score': 1.0, 'keywords': ['画像の受信者や管理者、内容の確認を必要とする関係者、または記録目的でテキスト化された情報に関心のある個人。', '中立']}}
+2025-05-16 15:48:55,590 - app.linebot_adapter - INFO - LLMによるメッセージ解析を実行します
+2025-05-16 15:48:55,590 - app.llm_helper - INFO - Gemini APIリクエスト実行 (試行 1/3)
+2025-05-16 15:48:58,524 - app.llm_helper - INFO - コマンド解析: type=summary, confidence=0.7
+2025-05-16 15:48:58,524 - app.linebot_adapter - INFO - LLMがコマンド 'summary' を検出しました (信頼度: 0.70)
+2025-05-16 15:48:58,524 - app.linebot_adapter - INFO - コマンド形式ではない、またはLLMが特定コマンドと解釈しなかったため、新しいチケットとして登録処理を開始します: [自動生成] 202505160645の意図分析...
+2025-05-16 15:48:58,525 - app.linebot_adapter - ERROR - Error handling message: 'RedmineAgent' object has no attribute 'create_issue'
+Traceback (most recent call last):
+  File "C:\Users\motoc\python\redmine_agent\app\linebot_adapter.py", line 174, in handle_message
+    created_issue = self.agent.create_issue(
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RedmineAgent' object has no attribute 'create_issue'
+2025-05-16 15:48:58,535 - app.linebot_adapter - INFO - [PRODUCTION] Sending LINE message to U0082f5630775769cb2655fb503e958bb, length: 78
+2025-05-16 15:48:58,537 - app.linebot_adapter - INFO - [SIMULATED LINE MESSAGE] To: U0082f5630775769cb2655fb503e958bb, Message length: 78
+2025-05-16 15:58:27,693 - app.llm_helper - INFO - 環境変数 GEMINI_API_KEY からAPIキーをロードしました
+2025-05-16 15:58:27,694 - app.llm_helper - INFO - 環境変数 GOOGLE_API_KEY からAPIキーをロードしました
+2025-05-16 15:58:27,694 - app.llm_helper - INFO - Gemini API接続テスト実行中...
+2025-05-16 15:58:30,177 - app.llm_helper - INFO - Gemini API接続テスト成功
+2025-05-16 15:58:30,179 - app.linebot_adapter - INFO - LLMアシスタントを初期化しました
+2025-05-16 15:58:30,179 - app.main - INFO - LINE Bot adapter initialized in simplified mode
+2025-05-16 15:58:30,186 - app.main - INFO - Started scheduler task
+2025-05-16 15:58:30,186 - app.scheduler - INFO - Starting scheduler
+2025-05-16 15:58:30,186 - app.scheduler - INFO - 夕方レポートまで 7289.81 秒待機します

@@ -1,0 +1,20 @@
+{
+  "llm": {
+    "enabled": true,
+    "model": "gemini-2.0-flash",
+    "temperature": 0.7,
+    "use_local_fallback": true
+  },
+  "notification": {
+    "morning_report_enabled": true,
+    "evening_report_enabled": true,
+    "morning_report_time": "09:00",
+    "evening_report_time": "18:00"
+  },
+  "system": {
+    "environment": "production",
+    "debug_mode": false,
+    "version": "1.0.0"
+  },
+  "user_preferences": {}
+}
