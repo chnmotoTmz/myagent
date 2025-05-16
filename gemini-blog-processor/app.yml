@@ -1,0 +1,45 @@
+system: Content Generator Service
+description: LINE受信データを元に記事を生成し、保存・提供するAPI。
+
+components:
+  - WebhookHandler:
+      - validate_message()
+      - create_message()
+      - get_messages_for_hour()
+  - MessageProcessor:
+      - save_message()
+      - get_messages_for_hour()
+  - ContentGenerator:
+      - generate_content(messages)
+      - _format_messages()
+      - call_gemini_api()
+  - BlogSeedManager:
+      - save_seed(hour_key, article)
+      - get_seed(hour_key)
+  - Database: SQLite or other (message storage, seed storage)
+  - Gemini AI: Google Gemini API call (article generation)
+
+api:
+  - endpoint: POST /api/receive_message
+    description: LINEからのメッセージ情報を受け取って処理を開始
+    fields:
+      - user_id
+      - message_id
+      - message_type
+      - filepath
+      - content (optional)
+    actions:
+      - save_message()
+      - generate_article_via_gemini()
+      - save_seed()
+      - optionally notify LINE via push API
+
+  - endpoint: GET /blog_seed/<hour_key>
+    description: 指定時間キーに対応する記事（ブログ種）を取得
+    response:
+      - BlogSeed object or not found
+
+internal_flow:
+  - Gemini API呼び出しによるコンテンツ生成
+  - 1時間単位でのメッセージ集約
+  - エラーハンドリング／リトライ管理あり

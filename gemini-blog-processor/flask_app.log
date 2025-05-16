@@ -1,0 +1,26 @@
+2025-05-04 09:28:27,042 - __main__ - INFO - Creating Flask app instance.
+2025-05-04 09:28:27,044 - __main__ - INFO - Database URI configured: sqlite:////home/ubuntu/gemini_blog_processor/instance/app.db
+2025-05-04 09:28:27,056 - __main__ - INFO - SQLAlchemy initialized with the app.
+2025-05-04 09:28:27,064 - __main__ - INFO - Models imported within app context.
+2025-05-04 09:28:27,528 - src.routes.line_webhook - INFO - Gemini API Key configured.
+2025-05-04 09:28:27,531 - __main__ - INFO - Blueprints registered.
+2025-05-04 09:28:27,532 - __main__ - INFO - Starting Flask app on 0.0.0.0:5000 with debug=True
+2025-05-04 09:28:27,540 - __main__ - INFO - Ensured database tables exist.
+ * Serving Flask app 'main'
+ * Debug mode: on
+2025-05-04 09:28:27,618 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://169.254.0.21:5000
+2025-05-04 09:28:27,619 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-04 09:28:27,620 - werkzeug - INFO -  * Restarting with stat
+2025-05-04 09:28:28,272 - __main__ - INFO - Creating Flask app instance.
+2025-05-04 09:28:28,274 - __main__ - INFO - Database URI configured: sqlite:////home/ubuntu/gemini_blog_processor/instance/app.db
+2025-05-04 09:28:28,286 - __main__ - INFO - SQLAlchemy initialized with the app.
+2025-05-04 09:28:28,295 - __main__ - INFO - Models imported within app context.
+2025-05-04 09:28:28,811 - src.routes.line_webhook - INFO - Gemini API Key configured.
+2025-05-04 09:28:28,814 - __main__ - INFO - Blueprints registered.
+2025-05-04 09:28:28,816 - __main__ - INFO - Starting Flask app on 0.0.0.0:5000 with debug=True
+2025-05-04 09:28:28,818 - __main__ - INFO - Ensured database tables exist.
+2025-05-04 09:28:28,916 - werkzeug - WARNING -  * Debugger is active!
+2025-05-04 09:28:28,917 - werkzeug - INFO -  * Debugger PIN: 110-120-319

@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 仮想環境
+.env
+.venv
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# データベース
+*.db
+*.sqlite3
+
+# ログ
+logs/
+*.log
+
+# テスト
+.coverage
+htmlcov/
+.pytest_cache/
+
+# その他
+.DS_Store
+data/
+uploads/
+line_uploads/
+backup_old_files/ 
+storage/
+*.zip
+*.tar.gz
+*.tar.bz2

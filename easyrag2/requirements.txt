@@ -1,0 +1,10 @@
+pandas
+numpy
+janome
+scikit-learn
+networkx
+matplotlib
+gradio
+chardet
+pillow
+joblib

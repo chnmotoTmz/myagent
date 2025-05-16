@@ -1,0 +1,523 @@
+2025-05-06 09:15:27,682 - __main__ - INFO - Creating Flask app instance.
+2025-05-06 09:15:27,685 - __main__ - INFO - Database URI configured: sqlite:///C:\Users\motoc\python\gemini-blog-processor\instance\app.db
+2025-05-06 09:15:27,707 - __main__ - INFO - SQLAlchemy initialized with the app.
+2025-05-06 09:15:27,716 - __main__ - INFO - Models imported within app context.
+2025-05-06 09:15:29,120 - __main__ - INFO - Blueprints registered.
+2025-05-06 09:15:29,121 - __main__ - INFO - Starting Flask app on 0.0.0.0:8001 with debug=True
+2025-05-06 09:15:29,124 - __main__ - INFO - Ensured database tables exist.
+ * Serving Flask app 'main'
+ * Debug mode: on
+2025-05-06 09:15:29,183 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8001
+ * Running on http://192.168.1.40:8001
+2025-05-06 09:15:29,183 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-06 09:15:29,184 - werkzeug - INFO -  * Restarting with stat
+2025-05-06 09:15:30,044 - __main__ - INFO - Creating Flask app instance.
+2025-05-06 09:15:30,045 - __main__ - INFO - Database URI configured: sqlite:///C:\Users\motoc\python\gemini-blog-processor\instance\app.db
+2025-05-06 09:15:30,063 - __main__ - INFO - SQLAlchemy initialized with the app.
+2025-05-06 09:15:30,070 - __main__ - INFO - Models imported within app context.
+2025-05-06 09:15:31,595 - __main__ - INFO - Blueprints registered.
+2025-05-06 09:15:31,596 - __main__ - INFO - Starting Flask app on 0.0.0.0:8001 with debug=True
+2025-05-06 09:15:31,599 - __main__ - INFO - Ensured database tables exist.
+2025-05-06 09:15:31,660 - werkzeug - WARNING -  * Debugger is active!
+2025-05-06 09:15:31,663 - werkzeug - INFO -  * Debugger PIN: 358-670-036
+2025-05-06 09:17:29,290 - __main__ - DEBUG - Request received: POST /api/content
+2025-05-06 09:17:29,290 - __main__ - DEBUG - Headers: Host: localhost:8001
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+User-Agent: python-httpx/0.28.1
+Content-Type: application/json
+Content-Length: 224
+
+
+2025-05-06 09:17:29,292 - __main__ - DEBUG - Body: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '559787486793170945', 'message_type': 'image', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_091728_590421.jpg', 'content': None}
+2025-05-06 09:17:29,293 - __main__ - DEBUG - Response status: 405 METHOD NOT ALLOWED
+2025-05-06 09:17:29,293 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 09:17:29] "[31m[1mPOST /api/content HTTP/1.1[0m" 405 -
+2025-05-06 09:17:30,191 - __main__ - DEBUG - Request received: POST /api/receive_message
+2025-05-06 09:17:30,191 - __main__ - DEBUG - Headers: Host: localhost:8001
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+User-Agent: python-httpx/0.28.1
+Content-Type: application/json
+Content-Length: 224
+
+
+2025-05-06 09:17:30,191 - __main__ - DEBUG - Body: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '559787486793170945', 'message_type': 'image', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_091728_590421.jpg', 'content': None}
+2025-05-06 09:17:30,191 - src.routes.message_receiver - INFO - Access allowed from IP: 127.0.0.1
+2025-05-06 09:17:30,191 - src.routes.message_receiver - INFO - [2025-05-06 09:17:30] Received request at /receive_message
+2025-05-06 09:17:30,191 - src.routes.message_receiver - INFO - Request headers: {'Host': 'localhost:8001', 'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Connection': 'keep-alive', 'User-Agent': 'python-httpx/0.28.1', 'Content-Type': 'application/json', 'Content-Length': '224'}
+2025-05-06 09:17:30,191 - src.routes.message_receiver - INFO - Received message data from user_id: U0082f5630775769cb2655fb503e958bb
+2025-05-06 09:17:30,192 - src.routes.message_receiver - DEBUG - Validating request data: {"user_id": "U0082f5630775769cb2655fb503e958bb", "message_id": "559787486793170945", "message_type": "image", "filepath": "C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_091728_590421.jpg", "content": null}
+2025-05-06 09:17:30,192 - src.routes.message_receiver - INFO - File exists: C:\Users\Public\Documents\U0082f5630775769cb2655fb503e958bb\20250506_091728_590421.jpg
+2025-05-06 09:17:30,192 - src.routes.message_receiver - INFO - File size: 244214 bytes
+2025-05-06 09:17:30,192 - src.routes.message_receiver - INFO - Request validation successful
+2025-05-06 09:17:30,192 - src.routes.message_receiver - INFO - Media message filepath: C:\Users\Public\Documents\U0082f5630775769cb2655fb503e958bb\20250506_091728_590421.jpg
+2025-05-06 09:17:30,206 - src.routes.message_receiver - INFO - Message saved successfully: 559787486793170945 (User: U0082f5630775769cb2655fb503e958bb, Type: image)
+2025-05-06 09:17:30,206 - src.routes.message_receiver - INFO - Starting async processing for message: 559787486793170945
+2025-05-06 09:17:30,206 - src.routes.line_webhook - ERROR - Gemini API key not configured
+2025-05-06 09:17:30,206 - src.routes.message_receiver - INFO - Processing message 559787486793170945 for hour 2025050600
+2025-05-06 09:17:30,206 - src.routes.message_receiver - INFO - Processing media file: C:\Users\Public\Documents\U0082f5630775769cb2655fb503e958bb\20250506_091728_590421.jpg
+2025-05-06 09:17:30,207 - src.routes.message_receiver - INFO - Media file size: 244214 bytes, processing completed
+2025-05-06 09:17:30,207 - src.routes.message_receiver - INFO - Async processing completed for message: 559787486793170945
+2025-05-06 09:17:30,207 - src.routes.message_receiver - INFO - Sending successful response: {"status": "success", "message": "Message received and processing started", "message_id": "559787486793170945", "received_at": "2025-05-06 09:17:30", "is_duplicate": false}
+2025-05-06 09:17:30,207 - __main__ - DEBUG - Response status: 202 ACCEPTED
+2025-05-06 09:17:30,207 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 09:17:30] "[35m[1mPOST /api/receive_message HTTP/1.1[0m" 202 -
+2025-05-06 09:17:34,807 - __main__ - DEBUG - Request received: POST /api/content
+2025-05-06 09:17:34,807 - __main__ - DEBUG - Headers: Host: localhost:8001
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+User-Agent: python-httpx/0.28.1
+Content-Type: application/json
+Content-Length: 224
+
+
+2025-05-06 09:17:34,807 - __main__ - DEBUG - Body: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '559787486793170945', 'message_type': 'image', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_091728_590421.jpg', 'content': None}
+2025-05-06 09:17:34,807 - __main__ - DEBUG - Response status: 405 METHOD NOT ALLOWED
+2025-05-06 09:17:34,807 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 09:17:34] "[31m[1mPOST /api/content HTTP/1.1[0m" 405 -
+2025-05-06 09:17:40,930 - __main__ - DEBUG - Request received: POST /api/receive_message
+2025-05-06 09:17:40,930 - __main__ - DEBUG - Headers: Host: localhost:8001
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+User-Agent: python-httpx/0.28.1
+Content-Type: application/json
+Content-Length: 224
+
+
+2025-05-06 09:17:40,930 - __main__ - DEBUG - Body: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '559787486793170945', 'message_type': 'image', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_091728_590421.jpg', 'content': None}
+2025-05-06 09:17:40,930 - src.routes.message_receiver - INFO - Access allowed from IP: 127.0.0.1
+2025-05-06 09:17:40,930 - src.routes.message_receiver - INFO - [2025-05-06 09:17:40] Received request at /receive_message
+2025-05-06 09:17:40,930 - src.routes.message_receiver - INFO - Request headers: {'Host': 'localhost:8001', 'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Connection': 'keep-alive', 'User-Agent': 'python-httpx/0.28.1', 'Content-Type': 'application/json', 'Content-Length': '224'}
+2025-05-06 09:17:40,930 - src.routes.message_receiver - INFO - Received message data from user_id: U0082f5630775769cb2655fb503e958bb
+2025-05-06 09:17:40,930 - src.routes.message_receiver - DEBUG - Validating request data: {"user_id": "U0082f5630775769cb2655fb503e958bb", "message_id": "559787486793170945", "message_type": "image", "filepath": "C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_091728_590421.jpg", "content": null}
+2025-05-06 09:17:40,931 - src.routes.message_receiver - INFO - File exists: C:\Users\Public\Documents\U0082f5630775769cb2655fb503e958bb\20250506_091728_590421.jpg
+2025-05-06 09:17:40,931 - src.routes.message_receiver - INFO - File size: 244214 bytes
+2025-05-06 09:17:40,931 - src.routes.message_receiver - INFO - Request validation successful
+2025-05-06 09:17:40,931 - src.routes.message_receiver - INFO - Media message filepath: C:\Users\Public\Documents\U0082f5630775769cb2655fb503e958bb\20250506_091728_590421.jpg
+2025-05-06 09:17:40,932 - src.routes.message_receiver - WARNING - Duplicate message_id detected: 559787486793170945
+2025-05-06 09:17:40,932 - src.routes.message_receiver - INFO - Duplicate message received, treating as successful retry: 559787486793170945
+2025-05-06 09:17:40,932 - __main__ - DEBUG - Response status: 200 OK
+2025-05-06 09:17:40,932 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 09:17:40] "POST /api/receive_message HTTP/1.1" 200 -
+2025-05-06 09:17:41,540 - __main__ - DEBUG - Request received: POST /api/content
+2025-05-06 09:17:41,540 - __main__ - DEBUG - Headers: Host: localhost:8001
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+User-Agent: python-httpx/0.28.1
+Content-Type: application/json
+Content-Length: 224
+
+
+2025-05-06 09:17:41,540 - __main__ - DEBUG - Body: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '559787486793170945', 'message_type': 'image', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_091728_590421.jpg', 'content': None}
+2025-05-06 09:17:41,540 - __main__ - DEBUG - Response status: 405 METHOD NOT ALLOWED
+2025-05-06 09:17:41,541 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 09:17:41] "[31m[1mPOST /api/content HTTP/1.1[0m" 405 -
+2025-05-06 09:17:46,744 - __main__ - DEBUG - Request received: POST /api/receive_message
+2025-05-06 09:17:46,744 - __main__ - DEBUG - Headers: Host: localhost:8001
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+User-Agent: python-httpx/0.28.1
+Content-Type: application/json
+Content-Length: 224
+
+
+2025-05-06 09:17:46,744 - __main__ - DEBUG - Body: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '559787486793170945', 'message_type': 'image', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_091728_590421.jpg', 'content': None}
+2025-05-06 09:17:46,744 - src.routes.message_receiver - INFO - Access allowed from IP: 127.0.0.1
+2025-05-06 09:17:46,744 - src.routes.message_receiver - INFO - [2025-05-06 09:17:46] Received request at /receive_message
+2025-05-06 09:17:46,744 - src.routes.message_receiver - INFO - Request headers: {'Host': 'localhost:8001', 'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Connection': 'keep-alive', 'User-Agent': 'python-httpx/0.28.1', 'Content-Type': 'application/json', 'Content-Length': '224'}
+2025-05-06 09:17:46,744 - src.routes.message_receiver - INFO - Received message data from user_id: U0082f5630775769cb2655fb503e958bb
+2025-05-06 09:17:46,745 - src.routes.message_receiver - DEBUG - Validating request data: {"user_id": "U0082f5630775769cb2655fb503e958bb", "message_id": "559787486793170945", "message_type": "image", "filepath": "C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_091728_590421.jpg", "content": null}
+2025-05-06 09:17:46,745 - src.routes.message_receiver - INFO - File exists: C:\Users\Public\Documents\U0082f5630775769cb2655fb503e958bb\20250506_091728_590421.jpg
+2025-05-06 09:17:46,745 - src.routes.message_receiver - INFO - File size: 244214 bytes
+2025-05-06 09:17:46,745 - src.routes.message_receiver - INFO - Request validation successful
+2025-05-06 09:17:46,745 - src.routes.message_receiver - INFO - Media message filepath: C:\Users\Public\Documents\U0082f5630775769cb2655fb503e958bb\20250506_091728_590421.jpg
+2025-05-06 09:17:46,746 - src.routes.message_receiver - WARNING - Duplicate message_id detected: 559787486793170945
+2025-05-06 09:17:46,746 - src.routes.message_receiver - INFO - Duplicate message received, treating as successful retry: 559787486793170945
+2025-05-06 09:17:46,746 - __main__ - DEBUG - Response status: 200 OK
+2025-05-06 09:17:46,746 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 09:17:46] "POST /api/receive_message HTTP/1.1" 200 -
+2025-05-06 09:17:48,338 - __main__ - DEBUG - Request received: POST /api/content
+2025-05-06 09:17:48,338 - __main__ - DEBUG - Headers: Host: localhost:8001
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+User-Agent: python-httpx/0.28.1
+Content-Type: application/json
+Content-Length: 224
+
+
+2025-05-06 09:17:48,338 - __main__ - DEBUG - Body: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '559787486793170945', 'message_type': 'image', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_091728_590421.jpg', 'content': None}
+2025-05-06 09:17:48,338 - __main__ - DEBUG - Response status: 405 METHOD NOT ALLOWED
+2025-05-06 09:17:48,338 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 09:17:48] "[31m[1mPOST /api/content HTTP/1.1[0m" 405 -
+2025-05-06 09:17:49,250 - __main__ - DEBUG - Request received: POST /api/content
+2025-05-06 09:17:49,250 - __main__ - DEBUG - Headers: Host: localhost:8001
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+User-Agent: python-httpx/0.28.1
+Content-Type: application/json
+Content-Length: 711
+
+
+2025-05-06 09:17:49,250 - __main__ - DEBUG - Body: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '559787520615776326', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_091748_581342.txt', 'content': '‚Š‚©‚ç‚Ì•ö—–ŒÌ‚É‚à’ˆÓ‚ª•K—v‚Å‚· “Á‚É‰®ª— ‚Éæ‚è•t‚¯‚½‚Í‚µ‚²‚Ì‚æ‚¤‚È‚à‚Ì‚©‚ç ‰®ª— ‚Éã‚ª‚éê‡ ‰®ª— ‚Ì‚Í‚µ‚² ‚Ì •ö— Œû ƒpƒJƒb‚ÆŠJ‚¢‚Ä‚é‚Æ‚±‚ë‚ª ŠëŒ¯ƒ|ƒCƒ“ƒg‚Å‚· „‚Í‚±‚±‚Ì•”•ª‚Éè‚·‚è‚ğ‚Â‚¯‚Ä ”Â‚ğ“\‚è•t‚¯‚Ä ƒAƒi‚ª‹É“x‚É‘å‚«‚­‚È‚ç‚È‚¢‚æ‚¤‚É‚µ‚Ä‚¢‚Ü‚· lŠÔ Î‚ğ‚Æ‚é‚¼‚±‚±‚©‚ç˜A—‚µ‚Ä‚à€‚Ê‚±‚Æ‚É‚È‚è‚Ü‚·‚©‚ç©‘î‚Å‚à—v’ˆÓ‚Å‚·'}
+2025-05-06 09:17:49,250 - __main__ - DEBUG - Response status: 405 METHOD NOT ALLOWED
+2025-05-06 09:17:49,250 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 09:17:49] "[31m[1mPOST /api/content HTTP/1.1[0m" 405 -
+2025-05-06 09:17:50,122 - __main__ - DEBUG - Request received: POST /api/content
+2025-05-06 09:17:50,122 - __main__ - DEBUG - Headers: Host: localhost:8001
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+User-Agent: python-httpx/0.28.1
+Content-Type: application/json
+Content-Length: 711
+
+
+2025-05-06 09:17:50,122 - __main__ - DEBUG - Body: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '559787520615776326', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_091748_581342.txt', 'content': '‚Š‚©‚ç‚Ì•ö—–ŒÌ‚É‚à’ˆÓ‚ª•K—v‚Å‚· “Á‚É‰®ª— ‚Éæ‚è•t‚¯‚½‚Í‚µ‚²‚Ì‚æ‚¤‚È‚à‚Ì‚©‚ç ‰®ª— ‚Éã‚ª‚éê‡ ‰®ª— ‚Ì‚Í‚µ‚² ‚Ì •ö— Œû ƒpƒJƒb‚ÆŠJ‚¢‚Ä‚é‚Æ‚±‚ë‚ª ŠëŒ¯ƒ|ƒCƒ“ƒg‚Å‚· „‚Í‚±‚±‚Ì•”•ª‚Éè‚·‚è‚ğ‚Â‚¯‚Ä ”Â‚ğ“\‚è•t‚¯‚Ä ƒAƒi‚ª‹É“x‚É‘å‚«‚­‚È‚ç‚È‚¢‚æ‚¤‚É‚µ‚Ä‚¢‚Ü‚· lŠÔ Î‚ğ‚Æ‚é‚¼‚±‚±‚©‚ç˜A—‚µ‚Ä‚à€‚Ê‚±‚Æ‚É‚È‚è‚Ü‚·‚©‚ç©‘î‚Å‚à—v’ˆÓ‚Å‚·'}
+2025-05-06 09:17:50,122 - __main__ - DEBUG - Response status: 405 METHOD NOT ALLOWED
+2025-05-06 09:17:50,122 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 09:17:50] "[31m[1mPOST /api/content HTTP/1.1[0m" 405 -
+2025-05-06 09:17:50,861 - __main__ - DEBUG - Request received: POST /api/content
+2025-05-06 09:17:50,861 - __main__ - DEBUG - Headers: Host: localhost:8001
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+User-Agent: python-httpx/0.28.1
+Content-Type: application/json
+Content-Length: 224
+
+
+2025-05-06 09:17:50,861 - __main__ - DEBUG - Body: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '559787520733479321', 'message_type': 'image', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_091750_129247.jpg', 'content': None}
+2025-05-06 09:17:50,861 - __main__ - DEBUG - Response status: 405 METHOD NOT ALLOWED
+2025-05-06 09:17:50,861 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 09:17:50] "[31m[1mPOST /api/content HTTP/1.1[0m" 405 -
+2025-05-06 09:17:51,845 - __main__ - DEBUG - Request received: POST /api/content
+2025-05-06 09:17:51,845 - __main__ - DEBUG - Headers: Host: localhost:8001
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+User-Agent: python-httpx/0.28.1
+Content-Type: application/json
+Content-Length: 224
+
+
+2025-05-06 09:17:51,845 - __main__ - DEBUG - Body: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '559787520733479321', 'message_type': 'image', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_091750_129247.jpg', 'content': None}
+2025-05-06 09:17:51,845 - __main__ - DEBUG - Response status: 405 METHOD NOT ALLOWED
+2025-05-06 09:17:51,845 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 09:17:51] "[31m[1mPOST /api/content HTTP/1.1[0m" 405 -
+2025-05-06 09:17:53,559 - __main__ - DEBUG - Request received: POST /api/content
+2025-05-06 09:17:53,559 - __main__ - DEBUG - Headers: Host: localhost:8001
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+User-Agent: python-httpx/0.28.1
+Content-Type: application/json
+Content-Length: 711
+
+
+2025-05-06 09:17:53,559 - __main__ - DEBUG - Body: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '559787520615776326', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_091748_581342.txt', 'content': '‚Š‚©‚ç‚Ì•ö—–ŒÌ‚É‚à’ˆÓ‚ª•K—v‚Å‚· “Á‚É‰®ª— ‚Éæ‚è•t‚¯‚½‚Í‚µ‚²‚Ì‚æ‚¤‚È‚à‚Ì‚©‚ç ‰®ª— ‚Éã‚ª‚éê‡ ‰®ª— ‚Ì‚Í‚µ‚² ‚Ì •ö— Œû ƒpƒJƒb‚ÆŠJ‚¢‚Ä‚é‚Æ‚±‚ë‚ª ŠëŒ¯ƒ|ƒCƒ“ƒg‚Å‚· „‚Í‚±‚±‚Ì•”•ª‚Éè‚·‚è‚ğ‚Â‚¯‚Ä ”Â‚ğ“\‚è•t‚¯‚Ä ƒAƒi‚ª‹É“x‚É‘å‚«‚­‚È‚ç‚È‚¢‚æ‚¤‚É‚µ‚Ä‚¢‚Ü‚· lŠÔ Î‚ğ‚Æ‚é‚¼‚±‚±‚©‚ç˜A—‚µ‚Ä‚à€‚Ê‚±‚Æ‚É‚È‚è‚Ü‚·‚©‚ç©‘î‚Å‚à—v’ˆÓ‚Å‚·'}
+2025-05-06 09:17:53,559 - __main__ - DEBUG - Response status: 405 METHOD NOT ALLOWED
+2025-05-06 09:17:53,560 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 09:17:53] "[31m[1mPOST /api/content HTTP/1.1[0m" 405 -
+2025-05-06 09:17:55,289 - __main__ - DEBUG - Request received: POST /api/content
+2025-05-06 09:17:55,289 - __main__ - DEBUG - Headers: Host: localhost:8001
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+User-Agent: python-httpx/0.28.1
+Content-Type: application/json
+Content-Length: 224
+
+
+2025-05-06 09:17:55,290 - __main__ - DEBUG - Body: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '559787520733479321', 'message_type': 'image', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_091750_129247.jpg', 'content': None}
+2025-05-06 09:17:55,290 - __main__ - DEBUG - Response status: 405 METHOD NOT ALLOWED
+2025-05-06 09:17:55,290 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 09:17:55] "[31m[1mPOST /api/content HTTP/1.1[0m" 405 -
+2025-05-06 09:17:57,604 - __main__ - DEBUG - Request received: POST /api/receive_message
+2025-05-06 09:17:57,604 - __main__ - DEBUG - Headers: Host: localhost:8001
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+User-Agent: python-httpx/0.28.1
+Content-Type: application/json
+Content-Length: 224
+
+
+2025-05-06 09:17:57,604 - __main__ - DEBUG - Body: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '559787486793170945', 'message_type': 'image', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_091728_590421.jpg', 'content': None}
+2025-05-06 09:17:57,604 - src.routes.message_receiver - INFO - Access allowed from IP: 127.0.0.1
+2025-05-06 09:17:57,605 - src.routes.message_receiver - INFO - [2025-05-06 09:17:57] Received request at /receive_message
+2025-05-06 09:17:57,605 - src.routes.message_receiver - INFO - Request headers: {'Host': 'localhost:8001', 'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Connection': 'keep-alive', 'User-Agent': 'python-httpx/0.28.1', 'Content-Type': 'application/json', 'Content-Length': '224'}
+2025-05-06 09:17:57,605 - src.routes.message_receiver - INFO - Received message data from user_id: U0082f5630775769cb2655fb503e958bb
+2025-05-06 09:17:57,605 - src.routes.message_receiver - DEBUG - Validating request data: {"user_id": "U0082f5630775769cb2655fb503e958bb", "message_id": "559787486793170945", "message_type": "image", "filepath": "C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_091728_590421.jpg", "content": null}
+2025-05-06 09:17:57,605 - src.routes.message_receiver - INFO - File exists: C:\Users\Public\Documents\U0082f5630775769cb2655fb503e958bb\20250506_091728_590421.jpg
+2025-05-06 09:17:57,605 - src.routes.message_receiver - INFO - File size: 244214 bytes
+2025-05-06 09:17:57,605 - src.routes.message_receiver - INFO - Request validation successful
+2025-05-06 09:17:57,605 - src.routes.message_receiver - INFO - Media message filepath: C:\Users\Public\Documents\U0082f5630775769cb2655fb503e958bb\20250506_091728_590421.jpg
+2025-05-06 09:17:57,606 - src.routes.message_receiver - WARNING - Duplicate message_id detected: 559787486793170945
+2025-05-06 09:17:57,606 - src.routes.message_receiver - INFO - Duplicate message received, treating as successful retry: 559787486793170945
+2025-05-06 09:17:57,606 - __main__ - DEBUG - Response status: 200 OK
+2025-05-06 09:17:57,606 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 09:17:57] "POST /api/receive_message HTTP/1.1" 200 -
+2025-05-06 09:18:02,134 - __main__ - DEBUG - Request received: POST /api/content
+2025-05-06 09:18:02,134 - __main__ - DEBUG - Headers: Host: localhost:8001
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+User-Agent: python-httpx/0.28.1
+Content-Type: application/json
+Content-Length: 224
+
+
+2025-05-06 09:18:02,134 - __main__ - DEBUG - Body: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '559787486793170945', 'message_type': 'image', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_091728_590421.jpg', 'content': None}
+2025-05-06 09:18:02,134 - __main__ - DEBUG - Response status: 405 METHOD NOT ALLOWED
+2025-05-06 09:18:02,134 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 09:18:02] "[31m[1mPOST /api/content HTTP/1.1[0m" 405 -
+2025-05-06 09:18:03,542 - __main__ - DEBUG - Request received: POST /api/receive_message
+2025-05-06 09:18:03,542 - __main__ - DEBUG - Headers: Host: localhost:8001
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+User-Agent: python-httpx/0.28.1
+Content-Type: application/json
+Content-Length: 711
+
+
+2025-05-06 09:18:03,542 - __main__ - DEBUG - Body: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '559787520615776326', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_091748_581342.txt', 'content': '‚Š‚©‚ç‚Ì•ö—–ŒÌ‚É‚à’ˆÓ‚ª•K—v‚Å‚· “Á‚É‰®ª— ‚Éæ‚è•t‚¯‚½‚Í‚µ‚²‚Ì‚æ‚¤‚È‚à‚Ì‚©‚ç ‰®ª— ‚Éã‚ª‚éê‡ ‰®ª— ‚Ì‚Í‚µ‚² ‚Ì •ö— Œû ƒpƒJƒb‚ÆŠJ‚¢‚Ä‚é‚Æ‚±‚ë‚ª ŠëŒ¯ƒ|ƒCƒ“ƒg‚Å‚· „‚Í‚±‚±‚Ì•”•ª‚Éè‚·‚è‚ğ‚Â‚¯‚Ä ”Â‚ğ“\‚è•t‚¯‚Ä ƒAƒi‚ª‹É“x‚É‘å‚«‚­‚È‚ç‚È‚¢‚æ‚¤‚É‚µ‚Ä‚¢‚Ü‚· lŠÔ Î‚ğ‚Æ‚é‚¼‚±‚±‚©‚ç˜A—‚µ‚Ä‚à€‚Ê‚±‚Æ‚É‚È‚è‚Ü‚·‚©‚ç©‘î‚Å‚à—v’ˆÓ‚Å‚·'}
+2025-05-06 09:18:03,542 - src.routes.message_receiver - INFO - Access allowed from IP: 127.0.0.1
+2025-05-06 09:18:03,542 - src.routes.message_receiver - INFO - [2025-05-06 09:18:03] Received request at /receive_message
+2025-05-06 09:18:03,542 - src.routes.message_receiver - INFO - Request headers: {'Host': 'localhost:8001', 'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Connection': 'keep-alive', 'User-Agent': 'python-httpx/0.28.1', 'Content-Type': 'application/json', 'Content-Length': '711'}
+2025-05-06 09:18:03,542 - src.routes.message_receiver - INFO - Received message data from user_id: U0082f5630775769cb2655fb503e958bb
+2025-05-06 09:18:03,542 - src.routes.message_receiver - DEBUG - Validating request data: {"user_id": "U0082f5630775769cb2655fb503e958bb", "message_id": "559787520615776326", "message_type": "text", "filepath": "C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_091748_581342.txt", "content": "‚Š‚©‚ç‚Ì•ö—–ŒÌ‚É‚à’ˆÓ‚ª•K—v‚Å‚· “Á‚É‰®ª— ‚Éæ‚è•t‚¯‚½‚Í‚µ‚²‚Ì‚æ‚¤‚È‚à‚Ì‚©‚ç ‰®ª— ‚Éã‚ª‚éê‡ ‰®ª— ‚Ì‚Í‚µ‚² ‚Ì •ö— Œû ƒpƒJƒb‚ÆŠJ‚¢‚Ä‚é‚Æ‚±‚ë‚ª ŠëŒ¯ƒ|ƒCƒ“ƒg‚Å‚· „‚Í‚±‚±‚Ì•”•ª‚Éè‚·‚è‚ğ‚Â‚¯‚Ä ”Â‚ğ“\‚è•t‚¯‚Ä ƒAƒi‚ª‹É“x‚É‘å‚«‚­‚È‚ç‚È‚¢‚æ‚¤‚É‚µ‚Ä‚¢‚Ü‚· lŠÔ Î‚ğ‚Æ‚é‚¼‚±‚±‚©‚ç˜A—‚µ‚Ä‚à€‚Ê‚±‚Æ‚É‚È‚è‚Ü‚·‚©‚ç©‘î‚Å‚à—v’ˆÓ‚Å‚·"}
+2025-05-06 09:18:03,543 - src.routes.message_receiver - INFO - File exists: C:\Users\Public\Documents\U0082f5630775769cb2655fb503e958bb\20250506_091748_581342.txt
+2025-05-06 09:18:03,543 - src.routes.message_receiver - INFO - File size: 490 bytes
+2025-05-06 09:18:03,543 - src.routes.message_receiver - INFO - Request validation successful
+2025-05-06 09:18:03,543 - src.routes.message_receiver - INFO - Text message content: ‚Š‚©‚ç‚Ì•ö—–ŒÌ‚É‚à’ˆÓ‚ª•K—v‚Å‚· “Á‚É‰®ª— ‚Éæ‚è•t‚¯‚½‚Í‚µ‚²‚Ì‚æ‚¤‚È‚à‚Ì‚©‚ç ‰®ª— ‚Éã‚ª‚éê...
+2025-05-06 09:18:03,550 - src.routes.message_receiver - INFO - Message saved successfully: 559787520615776326 (User: U0082f5630775769cb2655fb503e958bb, Type: text)
+2025-05-06 09:18:03,550 - src.routes.message_receiver - INFO - Starting async processing for message: 559787520615776326
+2025-05-06 09:18:03,550 - src.routes.line_webhook - ERROR - Gemini API key not configured
+2025-05-06 09:18:03,550 - src.routes.message_receiver - INFO - Processing message 559787520615776326 for hour 2025050600
+2025-05-06 09:18:03,550 - src.routes.message_receiver - INFO - Processing text content: ‚Š‚©‚ç‚Ì•ö—–ŒÌ‚É‚à’ˆÓ‚ª•K—v‚Å‚· “Á‚É‰®ª— ‚Éæ‚è•t‚¯‚½‚Í‚µ‚²‚Ì‚æ‚¤‚È‚à‚Ì‚©‚ç ‰®ª— ‚Éã‚ª‚éê‡ ‰®ª— ‚Ì‚Í‚µ‚² ‚Ì •ö— Œû ƒpƒJƒb‚ÆŠJ‚¢‚Ä‚é‚Æ‚±‚ë‚ª ŠëŒ¯ƒ|ƒCƒ“ƒg‚Å‚· „‚Í‚±‚±‚Ì•”•ª‚Éè‚·‚è...
+2025-05-06 09:18:03,550 - src.routes.message_receiver - INFO - Text processing completed for message: 559787520615776326
+2025-05-06 09:18:03,550 - src.routes.message_receiver - INFO - Async processing completed for message: 559787520615776326
+2025-05-06 09:18:03,550 - src.routes.message_receiver - INFO - Sending successful response: {"status": "success", "message": "Message received and processing started", "message_id": "559787520615776326", "received_at": "2025-05-06 09:18:03", "is_duplicate": false}
+2025-05-06 09:18:03,550 - __main__ - DEBUG - Response status: 202 ACCEPTED
+2025-05-06 09:18:03,551 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 09:18:03] "[35m[1mPOST /api/receive_message HTTP/1.1[0m" 202 -
+2025-05-06 09:18:03,982 - __main__ - DEBUG - Request received: POST /api/content
+2025-05-06 09:18:03,982 - __main__ - DEBUG - Headers: Host: localhost:8001
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+User-Agent: python-httpx/0.28.1
+Content-Type: application/json
+Content-Length: 711
+
+
+2025-05-06 09:18:03,982 - __main__ - DEBUG - Body: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '559787520615776326', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_091748_581342.txt', 'content': '‚Š‚©‚ç‚Ì•ö—–ŒÌ‚É‚à’ˆÓ‚ª•K—v‚Å‚· “Á‚É‰®ª— ‚Éæ‚è•t‚¯‚½‚Í‚µ‚²‚Ì‚æ‚¤‚È‚à‚Ì‚©‚ç ‰®ª— ‚Éã‚ª‚éê‡ ‰®ª— ‚Ì‚Í‚µ‚² ‚Ì •ö— Œû ƒpƒJƒb‚ÆŠJ‚¢‚Ä‚é‚Æ‚±‚ë‚ª ŠëŒ¯ƒ|ƒCƒ“ƒg‚Å‚· „‚Í‚±‚±‚Ì•”•ª‚Éè‚·‚è‚ğ‚Â‚¯‚Ä ”Â‚ğ“\‚è•t‚¯‚Ä ƒAƒi‚ª‹É“x‚É‘å‚«‚­‚È‚ç‚È‚¢‚æ‚¤‚É‚µ‚Ä‚¢‚Ü‚· lŠÔ Î‚ğ‚Æ‚é‚¼‚±‚±‚©‚ç˜A—‚µ‚Ä‚à€‚Ê‚±‚Æ‚É‚È‚è‚Ü‚·‚©‚ç©‘î‚Å‚à—v’ˆÓ‚Å‚·'}
+2025-05-06 09:18:03,982 - __main__ - DEBUG - Response status: 405 METHOD NOT ALLOWED
+2025-05-06 09:18:03,983 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 09:18:03] "[31m[1mPOST /api/content HTTP/1.1[0m" 405 -
+2025-05-06 09:18:05,915 - __main__ - DEBUG - Request received: POST /api/content
+2025-05-06 09:18:05,915 - __main__ - DEBUG - Headers: Host: localhost:8001
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+User-Agent: python-httpx/0.28.1
+Content-Type: application/json
+Content-Length: 224
+
+
+2025-05-06 09:18:05,915 - __main__ - DEBUG - Body: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '559787520733479321', 'message_type': 'image', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_091750_129247.jpg', 'content': None}
+2025-05-06 09:18:05,915 - __main__ - DEBUG - Response status: 405 METHOD NOT ALLOWED
+2025-05-06 09:18:05,915 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 09:18:05] "[31m[1mPOST /api/content HTTP/1.1[0m" 405 -
+2025-05-06 09:18:14,402 - __main__ - DEBUG - Request received: POST /api/receive_message
+2025-05-06 09:18:14,402 - __main__ - DEBUG - Headers: Host: localhost:8001
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+User-Agent: python-httpx/0.28.1
+Content-Type: application/json
+Content-Length: 711
+
+
+2025-05-06 09:18:14,402 - __main__ - DEBUG - Body: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '559787520615776326', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_091748_581342.txt', 'content': '‚Š‚©‚ç‚Ì•ö—–ŒÌ‚É‚à’ˆÓ‚ª•K—v‚Å‚· “Á‚É‰®ª— ‚Éæ‚è•t‚¯‚½‚Í‚µ‚²‚Ì‚æ‚¤‚È‚à‚Ì‚©‚ç ‰®ª— ‚Éã‚ª‚éê‡ ‰®ª— ‚Ì‚Í‚µ‚² ‚Ì •ö— Œû ƒpƒJƒb‚ÆŠJ‚¢‚Ä‚é‚Æ‚±‚ë‚ª ŠëŒ¯ƒ|ƒCƒ“ƒg‚Å‚· „‚Í‚±‚±‚Ì•”•ª‚Éè‚·‚è‚ğ‚Â‚¯‚Ä ”Â‚ğ“\‚è•t‚¯‚Ä ƒAƒi‚ª‹É“x‚É‘å‚«‚­‚È‚ç‚È‚¢‚æ‚¤‚É‚µ‚Ä‚¢‚Ü‚· lŠÔ Î‚ğ‚Æ‚é‚¼‚±‚±‚©‚ç˜A—‚µ‚Ä‚à€‚Ê‚±‚Æ‚É‚È‚è‚Ü‚·‚©‚ç©‘î‚Å‚à—v’ˆÓ‚Å‚·'}
+2025-05-06 09:18:14,402 - src.routes.message_receiver - INFO - Access allowed from IP: 127.0.0.1
+2025-05-06 09:18:14,402 - src.routes.message_receiver - INFO - [2025-05-06 09:18:14] Received request at /receive_message
+2025-05-06 09:18:14,402 - src.routes.message_receiver - INFO - Request headers: {'Host': 'localhost:8001', 'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Connection': 'keep-alive', 'User-Agent': 'python-httpx/0.28.1', 'Content-Type': 'application/json', 'Content-Length': '711'}
+2025-05-06 09:18:14,402 - src.routes.message_receiver - INFO - Received message data from user_id: U0082f5630775769cb2655fb503e958bb
+2025-05-06 09:18:14,403 - src.routes.message_receiver - DEBUG - Validating request data: {"user_id": "U0082f5630775769cb2655fb503e958bb", "message_id": "559787520615776326", "message_type": "text", "filepath": "C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_091748_581342.txt", "content": "‚Š‚©‚ç‚Ì•ö—–ŒÌ‚É‚à’ˆÓ‚ª•K—v‚Å‚· “Á‚É‰®ª— ‚Éæ‚è•t‚¯‚½‚Í‚µ‚²‚Ì‚æ‚¤‚È‚à‚Ì‚©‚ç ‰®ª— ‚Éã‚ª‚éê‡ ‰®ª— ‚Ì‚Í‚µ‚² ‚Ì •ö— Œû ƒpƒJƒb‚ÆŠJ‚¢‚Ä‚é‚Æ‚±‚ë‚ª ŠëŒ¯ƒ|ƒCƒ“ƒg‚Å‚· „‚Í‚±‚±‚Ì•”•ª‚Éè‚·‚è‚ğ‚Â‚¯‚Ä ”Â‚ğ“\‚è•t‚¯‚Ä ƒAƒi‚ª‹É“x‚É‘å‚«‚­‚È‚ç‚È‚¢‚æ‚¤‚É‚µ‚Ä‚¢‚Ü‚· lŠÔ Î‚ğ‚Æ‚é‚¼‚±‚±‚©‚ç˜A—‚µ‚Ä‚à€‚Ê‚±‚Æ‚É‚È‚è‚Ü‚·‚©‚ç©‘î‚Å‚à—v’ˆÓ‚Å‚·"}
+2025-05-06 09:18:14,403 - src.routes.message_receiver - INFO - File exists: C:\Users\Public\Documents\U0082f5630775769cb2655fb503e958bb\20250506_091748_581342.txt
+2025-05-06 09:18:14,403 - src.routes.message_receiver - INFO - File size: 490 bytes
+2025-05-06 09:18:14,403 - src.routes.message_receiver - INFO - Request validation successful
+2025-05-06 09:18:14,403 - src.routes.message_receiver - INFO - Text message content: ‚Š‚©‚ç‚Ì•ö—–ŒÌ‚É‚à’ˆÓ‚ª•K—v‚Å‚· “Á‚É‰®ª— ‚Éæ‚è•t‚¯‚½‚Í‚µ‚²‚Ì‚æ‚¤‚È‚à‚Ì‚©‚ç ‰®ª— ‚Éã‚ª‚éê...
+2025-05-06 09:18:14,404 - src.routes.message_receiver - WARNING - Duplicate message_id detected: 559787520615776326
+2025-05-06 09:18:14,404 - src.routes.message_receiver - INFO - Duplicate message received, treating as successful retry: 559787520615776326
+2025-05-06 09:18:14,404 - __main__ - DEBUG - Response status: 200 OK
+2025-05-06 09:18:14,404 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 09:18:14] "POST /api/receive_message HTTP/1.1" 200 -
+2025-05-06 09:18:17,778 - __main__ - DEBUG - Request received: POST /api/content
+2025-05-06 09:18:17,778 - __main__ - DEBUG - Headers: Host: localhost:8001
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+User-Agent: python-httpx/0.28.1
+Content-Type: application/json
+Content-Length: 711
+
+
+2025-05-06 09:18:17,778 - __main__ - DEBUG - Body: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '559787520615776326', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_091748_581342.txt', 'content': '‚Š‚©‚ç‚Ì•ö—–ŒÌ‚É‚à’ˆÓ‚ª•K—v‚Å‚· “Á‚É‰®ª— ‚Éæ‚è•t‚¯‚½‚Í‚µ‚²‚Ì‚æ‚¤‚È‚à‚Ì‚©‚ç ‰®ª— ‚Éã‚ª‚éê‡ ‰®ª— ‚Ì‚Í‚µ‚² ‚Ì •ö— Œû ƒpƒJƒb‚ÆŠJ‚¢‚Ä‚é‚Æ‚±‚ë‚ª ŠëŒ¯ƒ|ƒCƒ“ƒg‚Å‚· „‚Í‚±‚±‚Ì•”•ª‚Éè‚·‚è‚ğ‚Â‚¯‚Ä ”Â‚ğ“\‚è•t‚¯‚Ä ƒAƒi‚ª‹É“x‚É‘å‚«‚­‚È‚ç‚È‚¢‚æ‚¤‚É‚µ‚Ä‚¢‚Ü‚· lŠÔ Î‚ğ‚Æ‚é‚¼‚±‚±‚©‚ç˜A—‚µ‚Ä‚à€‚Ê‚±‚Æ‚É‚È‚è‚Ü‚·‚©‚ç©‘î‚Å‚à—v’ˆÓ‚Å‚·'}
+2025-05-06 09:18:17,778 - __main__ - DEBUG - Response status: 405 METHOD NOT ALLOWED
+2025-05-06 09:18:17,778 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 09:18:17] "[31m[1mPOST /api/content HTTP/1.1[0m" 405 -
+2025-05-06 09:18:19,697 - __main__ - DEBUG - Request received: POST /api/content
+2025-05-06 09:18:19,697 - __main__ - DEBUG - Headers: Host: localhost:8001
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+User-Agent: python-httpx/0.28.1
+Content-Type: application/json
+Content-Length: 224
+
+
+2025-05-06 09:18:19,697 - __main__ - DEBUG - Body: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '559787486793170945', 'message_type': 'image', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_091728_590421.jpg', 'content': None}
+2025-05-06 09:18:19,697 - __main__ - DEBUG - Response status: 405 METHOD NOT ALLOWED
+2025-05-06 09:18:19,697 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 09:18:19] "[31m[1mPOST /api/content HTTP/1.1[0m" 405 -
+2025-05-06 09:18:21,499 - __main__ - DEBUG - Request received: POST /api/content
+2025-05-06 09:18:21,499 - __main__ - DEBUG - Headers: Host: localhost:8001
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+User-Agent: python-httpx/0.28.1
+Content-Type: application/json
+Content-Length: 224
+
+
+2025-05-06 09:18:21,500 - __main__ - DEBUG - Body: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '559787520733479321', 'message_type': 'image', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_091750_129247.jpg', 'content': None}
+2025-05-06 09:18:21,500 - __main__ - DEBUG - Response status: 405 METHOD NOT ALLOWED
+2025-05-06 09:18:21,500 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 09:18:21] "[31m[1mPOST /api/content HTTP/1.1[0m" 405 -
+2025-05-06 09:18:38,221 - __main__ - DEBUG - Request received: POST /api/content
+2025-05-06 09:18:38,221 - __main__ - DEBUG - Headers: Host: localhost:8001
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+User-Agent: python-httpx/0.28.1
+Content-Type: application/json
+Content-Length: 711
+
+
+2025-05-06 09:18:38,222 - __main__ - DEBUG - Body: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '559787520615776326', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_091748_581342.txt', 'content': '‚Š‚©‚ç‚Ì•ö—–ŒÌ‚É‚à’ˆÓ‚ª•K—v‚Å‚· “Á‚É‰®ª— ‚Éæ‚è•t‚¯‚½‚Í‚µ‚²‚Ì‚æ‚¤‚È‚à‚Ì‚©‚ç ‰®ª— ‚Éã‚ª‚éê‡ ‰®ª— ‚Ì‚Í‚µ‚² ‚Ì •ö— Œû ƒpƒJƒb‚ÆŠJ‚¢‚Ä‚é‚Æ‚±‚ë‚ª ŠëŒ¯ƒ|ƒCƒ“ƒg‚Å‚· „‚Í‚±‚±‚Ì•”•ª‚Éè‚·‚è‚ğ‚Â‚¯‚Ä ”Â‚ğ“\‚è•t‚¯‚Ä ƒAƒi‚ª‹É“x‚É‘å‚«‚­‚È‚ç‚È‚¢‚æ‚¤‚É‚µ‚Ä‚¢‚Ü‚· lŠÔ Î‚ğ‚Æ‚é‚¼‚±‚±‚©‚ç˜A—‚µ‚Ä‚à€‚Ê‚±‚Æ‚É‚È‚è‚Ü‚·‚©‚ç©‘î‚Å‚à—v’ˆÓ‚Å‚·'}
+2025-05-06 09:18:38,222 - __main__ - DEBUG - Response status: 405 METHOD NOT ALLOWED
+2025-05-06 09:18:38,222 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 09:18:38] "[31m[1mPOST /api/content HTTP/1.1[0m" 405 -
+2025-05-06 09:18:40,044 - __main__ - DEBUG - Request received: POST /api/content
+2025-05-06 09:18:40,044 - __main__ - DEBUG - Headers: Host: localhost:8001
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+User-Agent: python-httpx/0.28.1
+Content-Type: application/json
+Content-Length: 224
+
+
+2025-05-06 09:18:40,044 - __main__ - DEBUG - Body: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '559787520733479321', 'message_type': 'image', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_091750_129247.jpg', 'content': None}
+2025-05-06 09:18:40,044 - __main__ - DEBUG - Response status: 405 METHOD NOT ALLOWED
+2025-05-06 09:18:40,045 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 09:18:40] "[31m[1mPOST /api/content HTTP/1.1[0m" 405 -
+2025-05-06 09:20:06,025 - __main__ - DEBUG - Request received: POST /api/receive_message
+2025-05-06 09:20:06,025 - __main__ - DEBUG - Headers: Host: localhost:8001
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+User-Agent: python-httpx/0.28.1
+Content-Type: application/json
+Content-Length: 224
+
+
+2025-05-06 09:20:06,025 - __main__ - DEBUG - Body: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '559787749876433210', 'message_type': 'image', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_092005_245045.jpg', 'content': None}
+2025-05-06 09:20:06,025 - src.routes.message_receiver - INFO - Access allowed from IP: 127.0.0.1
+2025-05-06 09:20:06,025 - src.routes.message_receiver - INFO - [2025-05-06 09:20:06] Received request at /receive_message
+2025-05-06 09:20:06,025 - src.routes.message_receiver - INFO - Request headers: {'Host': 'localhost:8001', 'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Connection': 'keep-alive', 'User-Agent': 'python-httpx/0.28.1', 'Content-Type': 'application/json', 'Content-Length': '224'}
+2025-05-06 09:20:06,025 - src.routes.message_receiver - INFO - Received message data from user_id: U0082f5630775769cb2655fb503e958bb
+2025-05-06 09:20:06,025 - src.routes.message_receiver - DEBUG - Validating request data: {"user_id": "U0082f5630775769cb2655fb503e958bb", "message_id": "559787749876433210", "message_type": "image", "filepath": "C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_092005_245045.jpg", "content": null}
+2025-05-06 09:20:06,026 - src.routes.message_receiver - INFO - File exists: C:\Users\Public\Documents\U0082f5630775769cb2655fb503e958bb\20250506_092005_245045.jpg
+2025-05-06 09:20:06,026 - src.routes.message_receiver - INFO - File size: 244214 bytes
+2025-05-06 09:20:06,026 - src.routes.message_receiver - INFO - Request validation successful
+2025-05-06 09:20:06,026 - src.routes.message_receiver - INFO - Media message filepath: C:\Users\Public\Documents\U0082f5630775769cb2655fb503e958bb\20250506_092005_245045.jpg
+2025-05-06 09:20:06,034 - src.routes.message_receiver - INFO - Message saved successfully: 559787749876433210 (User: U0082f5630775769cb2655fb503e958bb, Type: image)
+2025-05-06 09:20:06,034 - src.routes.message_receiver - INFO - Starting async processing for message: 559787749876433210
+2025-05-06 09:20:06,034 - src.routes.line_webhook - ERROR - Gemini API key not configured
+2025-05-06 09:20:06,034 - src.routes.message_receiver - INFO - Processing message 559787749876433210 for hour 2025050600
+2025-05-06 09:20:06,034 - src.routes.message_receiver - INFO - Processing media file: C:\Users\Public\Documents\U0082f5630775769cb2655fb503e958bb\20250506_092005_245045.jpg
+2025-05-06 09:20:06,034 - src.routes.message_receiver - INFO - Media file size: 244214 bytes, processing completed
+2025-05-06 09:20:06,035 - src.routes.message_receiver - INFO - Async processing completed for message: 559787749876433210
+2025-05-06 09:20:06,035 - src.routes.message_receiver - INFO - Sending successful response: {"status": "success", "message": "Message received and processing started", "message_id": "559787749876433210", "received_at": "2025-05-06 09:20:06", "is_duplicate": false}
+2025-05-06 09:20:06,035 - __main__ - DEBUG - Response status: 202 ACCEPTED
+2025-05-06 09:20:06,035 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 09:20:06] "[35m[1mPOST /api/receive_message HTTP/1.1[0m" 202 -
+2025-05-06 09:20:07,797 - __main__ - DEBUG - Request received: POST /api/receive_message
+2025-05-06 09:20:07,797 - __main__ - DEBUG - Headers: Host: localhost:8001
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+User-Agent: python-httpx/0.28.1
+Content-Type: application/json
+Content-Length: 711
+
+
+2025-05-06 09:20:07,797 - __main__ - DEBUG - Body: {'user_id': 'U0082f5630775769cb2655fb503e958bb', 'message_id': '559787749843664919', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_092007_148508.txt', 'content': '‚Š‚©‚ç‚Ì•ö—–ŒÌ‚É‚à’ˆÓ‚ª•K—v‚Å‚· “Á‚É‰®ª— ‚Éæ‚è•t‚¯‚½‚Í‚µ‚²‚Ì‚æ‚¤‚È‚à‚Ì‚©‚ç ‰®ª— ‚Éã‚ª‚éê‡ ‰®ª— ‚Ì‚Í‚µ‚² ‚Ì •ö— Œû ƒpƒJƒb‚ÆŠJ‚¢‚Ä‚é‚Æ‚±‚ë‚ª ŠëŒ¯ƒ|ƒCƒ“ƒg‚Å‚· „‚Í‚±‚±‚Ì•”•ª‚Éè‚·‚è‚ğ‚Â‚¯‚Ä ”Â‚ğ“\‚è•t‚¯‚Ä ƒAƒi‚ª‹É“x‚É‘å‚«‚­‚È‚ç‚È‚¢‚æ‚¤‚É‚µ‚Ä‚¢‚Ü‚· lŠÔ Î‚ğ‚Æ‚é‚¼‚±‚±‚©‚ç˜A—‚µ‚Ä‚à€‚Ê‚±‚Æ‚É‚È‚è‚Ü‚·‚©‚ç©‘î‚Å‚à—v’ˆÓ‚Å‚·'}
+2025-05-06 09:20:07,797 - src.routes.message_receiver - INFO - Access allowed from IP: 127.0.0.1
+2025-05-06 09:20:07,797 - src.routes.message_receiver - INFO - [2025-05-06 09:20:07] Received request at /receive_message
+2025-05-06 09:20:07,797 - src.routes.message_receiver - INFO - Request headers: {'Host': 'localhost:8001', 'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Connection': 'keep-alive', 'User-Agent': 'python-httpx/0.28.1', 'Content-Type': 'application/json', 'Content-Length': '711'}
+2025-05-06 09:20:07,797 - src.routes.message_receiver - INFO - Received message data from user_id: U0082f5630775769cb2655fb503e958bb
+2025-05-06 09:20:07,797 - src.routes.message_receiver - DEBUG - Validating request data: {"user_id": "U0082f5630775769cb2655fb503e958bb", "message_id": "559787749843664919", "message_type": "text", "filepath": "C:\\Users\\Public\\Documents\\U0082f5630775769cb2655fb503e958bb\\20250506_092007_148508.txt", "content": "‚Š‚©‚ç‚Ì•ö—–ŒÌ‚É‚à’ˆÓ‚ª•K—v‚Å‚· “Á‚É‰®ª— ‚Éæ‚è•t‚¯‚½‚Í‚µ‚²‚Ì‚æ‚¤‚È‚à‚Ì‚©‚ç ‰®ª— ‚Éã‚ª‚éê‡ ‰®ª— ‚Ì‚Í‚µ‚² ‚Ì •ö— Œû ƒpƒJƒb‚ÆŠJ‚¢‚Ä‚é‚Æ‚±‚ë‚ª ŠëŒ¯ƒ|ƒCƒ“ƒg‚Å‚· „‚Í‚±‚±‚Ì•”•ª‚Éè‚·‚è‚ğ‚Â‚¯‚Ä ”Â‚ğ“\‚è•t‚¯‚Ä ƒAƒi‚ª‹É“x‚É‘å‚«‚­‚È‚ç‚È‚¢‚æ‚¤‚É‚µ‚Ä‚¢‚Ü‚· lŠÔ Î‚ğ‚Æ‚é‚¼‚±‚±‚©‚ç˜A—‚µ‚Ä‚à€‚Ê‚±‚Æ‚É‚È‚è‚Ü‚·‚©‚ç©‘î‚Å‚à—v’ˆÓ‚Å‚·"}
+2025-05-06 09:20:07,797 - src.routes.message_receiver - INFO - File exists: C:\Users\Public\Documents\U0082f5630775769cb2655fb503e958bb\20250506_092007_148508.txt
+2025-05-06 09:20:07,798 - src.routes.message_receiver - INFO - File size: 490 bytes
+2025-05-06 09:20:07,798 - src.routes.message_receiver - INFO - Request validation successful
+2025-05-06 09:20:07,798 - src.routes.message_receiver - INFO - Text message content: ‚Š‚©‚ç‚Ì•ö—–ŒÌ‚É‚à’ˆÓ‚ª•K—v‚Å‚· “Á‚É‰®ª— ‚Éæ‚è•t‚¯‚½‚Í‚µ‚²‚Ì‚æ‚¤‚È‚à‚Ì‚©‚ç ‰®ª— ‚Éã‚ª‚éê...
+2025-05-06 09:20:07,803 - src.routes.message_receiver - INFO - Message saved successfully: 559787749843664919 (User: U0082f5630775769cb2655fb503e958bb, Type: text)
+2025-05-06 09:20:07,804 - src.routes.message_receiver - INFO - Starting async processing for message: 559787749843664919
+2025-05-06 09:20:07,804 - src.routes.line_webhook - ERROR - Gemini API key not configured
+2025-05-06 09:20:07,804 - src.routes.message_receiver - INFO - Processing message 559787749843664919 for hour 2025050600
+2025-05-06 09:20:07,804 - src.routes.message_receiver - INFO - Processing text content: ‚Š‚©‚ç‚Ì•ö—–ŒÌ‚É‚à’ˆÓ‚ª•K—v‚Å‚· “Á‚É‰®ª— ‚Éæ‚è•t‚¯‚½‚Í‚µ‚²‚Ì‚æ‚¤‚È‚à‚Ì‚©‚ç ‰®ª— ‚Éã‚ª‚éê‡ ‰®ª— ‚Ì‚Í‚µ‚² ‚Ì •ö— Œû ƒpƒJƒb‚ÆŠJ‚¢‚Ä‚é‚Æ‚±‚ë‚ª ŠëŒ¯ƒ|ƒCƒ“ƒg‚Å‚· „‚Í‚±‚±‚Ì•”•ª‚Éè‚·‚è...
+2025-05-06 09:20:07,804 - src.routes.message_receiver - INFO - Text processing completed for message: 559787749843664919
+2025-05-06 09:20:07,804 - src.routes.message_receiver - INFO - Async processing completed for message: 559787749843664919
+2025-05-06 09:20:07,804 - src.routes.message_receiver - INFO - Sending successful response: {"status": "success", "message": "Message received and processing started", "message_id": "559787749843664919", "received_at": "2025-05-06 09:20:07", "is_duplicate": false}
+2025-05-06 09:20:07,804 - __main__ - DEBUG - Response status: 202 ACCEPTED
+2025-05-06 09:20:07,804 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 09:20:07] "[35m[1mPOST /api/receive_message HTTP/1.1[0m" 202 -
+2025-05-06 09:22:35,367 - __main__ - DEBUG - Request received: POST /api/receive_message
+2025-05-06 09:22:35,367 - __main__ - DEBUG - Headers: Host: localhost:8001
+User-Agent: curl/8.12.1
+Accept: */*
+Content-Type: application/json
+Content-Length: 165
+
+
+2025-05-06 09:22:35,367 - __main__ - DEBUG - Body: {'user_id': 'test_user', 'message_id': 'test_msg_001', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\test.txt', 'content': 'ƒeƒXƒg‘a’Êƒ`ƒFƒbƒN'}
+2025-05-06 09:22:35,367 - src.routes.message_receiver - INFO - Access allowed from IP: 127.0.0.1
+2025-05-06 09:22:35,367 - src.routes.message_receiver - INFO - [2025-05-06 09:22:35] Received request at /receive_message
+2025-05-06 09:22:35,367 - src.routes.message_receiver - INFO - Request headers: {'Host': 'localhost:8001', 'User-Agent': 'curl/8.12.1', 'Accept': '*/*', 'Content-Type': 'application/json', 'Content-Length': '165'}
+2025-05-06 09:22:35,367 - src.routes.message_receiver - INFO - Received message data from user_id: test_user
+2025-05-06 09:22:35,367 - src.routes.message_receiver - DEBUG - Validating request data: {"user_id": "test_user", "message_id": "test_msg_001", "message_type": "text", "filepath": "C:\\Users\\Public\\Documents\\test.txt", "content": "ƒeƒXƒg‘a’Êƒ`ƒFƒbƒN"}
+2025-05-06 09:22:35,367 - src.routes.message_receiver - WARNING - File not found: C:\Users\Public\Documents\test.txt, but continuing for test purposes
+2025-05-06 09:22:35,368 - src.routes.message_receiver - INFO - Request validation successful
+2025-05-06 09:22:35,368 - src.routes.message_receiver - INFO - ƒeƒXƒg‘a’Êƒ`ƒFƒbƒN
+2025-05-06 09:22:35,374 - src.routes.message_receiver - INFO - Message saved successfully: test_msg_001 (User: test_user, Type: text)
+2025-05-06 09:22:35,374 - src.routes.message_receiver - INFO - Starting async processing for message: test_msg_001
+2025-05-06 09:22:35,374 - src.routes.line_webhook - ERROR - Gemini API key not configured
+2025-05-06 09:22:35,374 - src.routes.message_receiver - INFO - Processing message test_msg_001 for hour 2025050600
+2025-05-06 09:22:35,374 - src.routes.message_receiver - INFO - Processing text content: ƒeƒXƒg‘a’Êƒ`ƒFƒbƒN...
+2025-05-06 09:22:35,374 - src.routes.message_receiver - INFO - Text processing completed for message: test_msg_001
+2025-05-06 09:22:35,374 - src.routes.message_receiver - INFO - Async processing completed for message: test_msg_001
+2025-05-06 09:22:35,374 - src.routes.message_receiver - INFO - Sending successful response: {"status": "success", "message": "Message received and processing started", "message_id": "test_msg_001", "received_at": "2025-05-06 09:22:35", "is_duplicate": false}
+2025-05-06 09:22:35,374 - __main__ - DEBUG - Response status: 202 ACCEPTED
+2025-05-06 09:22:35,375 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 09:22:35] "[35m[1mPOST /api/receive_message HTTP/1.1[0m" 202 -
+2025-05-06 09:25:10,225 - __main__ - DEBUG - Request received: POST /api/receive_message
+2025-05-06 09:25:10,225 - __main__ - DEBUG - Headers: Host: localhost:8001
+User-Agent: curl/8.12.1
+Accept: */*
+Content-Type: application/json
+Content-Length: 165
+
+
+2025-05-06 09:25:10,225 - __main__ - DEBUG - Body: {'user_id': 'test_user', 'message_id': 'test_msg_001', 'message_type': 'text', 'filepath': 'C:\\Users\\Public\\Documents\\test.txt', 'content': 'ƒeƒXƒg‘a’Êƒ`ƒFƒbƒN'}
+2025-05-06 09:25:10,225 - src.routes.message_receiver - INFO - Access allowed from IP: 127.0.0.1
+2025-05-06 09:25:10,225 - src.routes.message_receiver - INFO - [2025-05-06 09:25:10] Received request at /receive_message
+2025-05-06 09:25:10,226 - src.routes.message_receiver - INFO - Request headers: {'Host': 'localhost:8001', 'User-Agent': 'curl/8.12.1', 'Accept': '*/*', 'Content-Type': 'application/json', 'Content-Length': '165'}
+2025-05-06 09:25:10,226 - src.routes.message_receiver - INFO - Received message data from user_id: test_user
+2025-05-06 09:25:10,226 - src.routes.message_receiver - DEBUG - Validating request data: {"user_id": "test_user", "message_id": "test_msg_001", "message_type": "text", "filepath": "C:\\Users\\Public\\Documents\\test.txt", "content": "ƒeƒXƒg‘a’Êƒ`ƒFƒbƒN"}
+2025-05-06 09:25:10,226 - src.routes.message_receiver - WARNING - File not found: C:\Users\Public\Documents\test.txt, but continuing for test purposes
+2025-05-06 09:25:10,226 - src.routes.message_receiver - INFO - Request validation successful
+2025-05-06 09:25:10,226 - src.routes.message_receiver - INFO - ƒeƒXƒg‘a’Êƒ`ƒFƒbƒN
+2025-05-06 09:25:10,227 - src.routes.message_receiver - WARNING - Duplicate message_id detected: test_msg_001
+2025-05-06 09:25:10,227 - src.routes.message_receiver - INFO - Duplicate message received, treating as successful retry: test_msg_001
+2025-05-06 09:25:10,227 - __main__ - DEBUG - Response status: 200 OK
+2025-05-06 09:25:10,227 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 09:25:10] "POST /api/receive_message HTTP/1.1" 200 -
+^C

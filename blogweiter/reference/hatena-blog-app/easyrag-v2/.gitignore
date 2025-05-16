@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ログファイル
+logs/
+*.log
+
+# 環境変数
+.env
+
+# 仮想環境
+venv/
+env/
+
+# IDE設定
+.vscode/
+.idea/
+
+# アップロードされたファイル
+uploads/
+
+# Node.js
+node_modules/
+
+# 不要なフォルダ
+prompts/
+frontend/public/js/services/
+
+# SSH関連
+.ssh/
+known_hosts
+known_hosts.old
+
+# バックアップファイル
+*.bak
+*.swp
+*.swo
+*~
+
+# 開発用の一時ファイル
+simple_search_service.py
+initialize_hatena.py
+
+# 重複・不要なファイル
+backend/services/search_service.py
+backend/routers/generate.py

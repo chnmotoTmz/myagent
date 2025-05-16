@@ -1,0 +1,13 @@
+integration:
+  trigger_flow: 
+    - A（LINE受信）側がB（記事生成）にPOST通知
+    - Bが非同期で処理
+  communication:
+    - method: HTTP POST
+    - endpoint: /api/receive_message（B側）
+    - payload:
+        - user_id
+        - message_id
+        - message_type
+        - filepath
+        - content

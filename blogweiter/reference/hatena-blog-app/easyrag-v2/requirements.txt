@@ -1,0 +1,10 @@
+fastapi==0.95.2
+uvicorn==0.22.0
+streamlit==1.26.0
+requests==2.28.2
+python-dotenv==1.0.0
+pillow
+google-cloud-vision
+google-generativeai
+scikit-learn==1.3.0
+janome==0.5.0

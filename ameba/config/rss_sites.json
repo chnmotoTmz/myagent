@@ -1,0 +1,25 @@
+{
+  "sites": [
+    {
+      "title": "我正在學中文",
+      "url": "https://motochan1969.hatenablog.com/rss",
+      "description": "メインブログ",
+      "posts": 195,
+      "readers": 14
+    },
+    {
+      "title": "Hiking Community from Kansai／関西ハイキングコミュニティ",
+      "url": "https://arafo40tozan.hatenadiary.jp/rss",
+      "description": "ハイキングコミュニティブログ",
+      "posts": 373,
+      "readers": 6
+    },
+    {
+      "title": "横浜ライフ・ディスカバリー",
+      "url": "https://lifehacking1919.hatenablog.jp/rss",
+      "description": "仕事と私生活の充実を目指して",
+      "posts": 0,
+      "readers": 0
+    }
+  ]
+} 

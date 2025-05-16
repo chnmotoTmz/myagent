@@ -1,0 +1,49 @@
+system: LINE Webhook Receiver Service
+description: LINEからのWebhookを受信し、ユーザーのメッセージを保存し、別プロセスに転送する。
+
+api:
+  - endpoint: POST /api/webhook/line
+    description: GAS経由のLINEメッセージを受信
+    request_fields:
+      - user: string
+      - type: text | image | video
+      - message: content string or message ID
+    optional_fields:
+      - messageId: string
+    response:
+      - status: ok | error
+      - filepath: 保存先ファイルパス（text/image/video）
+      - content: テキストメッセージ本文（text時のみ）
+
+internal_processing:
+  - check_duplicate(request_id):
+      inputs: user_id, message_id
+      output: bool（trueならスキップ）
+  - save_text_to_file(user_id, message_content) -> filepath
+  - save_media_file(message_id, filepath) [async]
+  - call_content_service(service_data):
+      description: 記事生成サービスにデータ転送（非同期POST）
+      fields:
+        - user_id
+        - message_id
+        - message_type
+        - filepath
+        - content (optional)
+
+background:
+  - retry_worker: リトライ用のメッセージ再送処理
+  - process_message_bundle_async(user_id, filepath):
+      description: ファイル整理やバンドル処理を行う（外部定義）
+
+env:
+  - LINE_TOKEN
+  - HOST
+  - PORT
+  - STORAGE_PATH
+
+files:
+  - organize_files_by_type.py
+  - message_bundler.py
+  - retry_queue.py
+  - retry_worker.py
+  - utils.py (call_content_service)
